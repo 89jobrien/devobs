@@ -1,0 +1,29 @@
+project: devobs
+default: ci
+budget: { calls: 100 }
+
+targets:
+  ingest:
+    steps:
+      - step: run_ingest
+        handler: shell::capture
+        args:
+          cmd: "crux run pipelines/devobs_ingest.crux"
+
+  lint:
+    steps:
+      - step: run_lint
+        handler: shell::capture
+        args:
+          cmd: "crux run pipelines/devobs_lint.crux"
+
+  enrich:
+    depends: [ingest]
+    steps:
+      - step: run_enrich
+        handler: shell::capture
+        args:
+          cmd: "crux run pipelines/devobs_enrich.crux"
+
+  ci:
+    depends: [lint, ingest]

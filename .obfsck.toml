@@ -1,0 +1,8 @@
+[allowlist]
+patterns = [
+  "https://github.com/89jobrien/",
+  "https://github.com/89jobrien",
+]
+
+[scan]
+level = "minimal"

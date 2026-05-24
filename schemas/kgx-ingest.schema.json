@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/89jobrien/devobs/schemas/kgx-ingest.schema.json",
+  "title": "kgx ingest payload",
+  "description": "JSON payload for kgx ingest command (stdin)",
+  "type": "object",
+  "required": ["doc_id", "title", "source", "raw_content", "entities"],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_.-]+$",
+      "description": "Unique document identifier"
+    },
+    "title": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "description": "Path or URL to the source document"
+    },
+    "raw_content": {
+      "type": "string",
+      "description": "Full text content of the document"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type", "supporting_text"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": {
+            "enum": [
+              "project", "language", "domain", "tool",
+              "machine", "crate", "plugin", "framework"
+            ]
+          },
+          "supporting_text": { "type": "string" }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "target", "type", "confidence", "supporting_text"],
+        "properties": {
+          "source": { "type": "string" },
+          "target": { "type": "string" },
+          "type": {
+            "enum": [
+              "depends_on", "bootstraps", "observes", "consumes_from",
+              "feeds_into", "adjacent_to", "sibling_of", "replaces",
+              "complements", "informed_by", "informs", "uses_language",
+              "belongs_to_domain", "runs_on"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0
+          },
+          "supporting_text": { "type": "string" }
+        }
+      }
+    }
+  }
+}

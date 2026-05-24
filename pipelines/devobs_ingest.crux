@@ -1,0 +1,94 @@
+pipeline: devobs_ingest
+# Ingest all PROJECT notes into the kgx knowledge graph.
+#
+# For each PROJECT.*.md file:
+#   1. Parse YAML frontmatter
+#   2. Build a kgx-compatible JSON payload (entities + relations)
+#   3. Pipe to `kgx ingest`
+#
+# Run:
+#   crux run pipelines/devobs_ingest.crux
+budget: { calls: 50 }
+
+steps:
+  # Step 1: Find all project notes
+  - step: find_projects
+    handler: fs::glob
+    args:
+      pattern: "02_Projects/PROJECT.*.md"
+
+  # Step 2: Read each project file and parse frontmatter
+  - step: read_all
+    handler: shell::capture
+    args:
+      cmd: >
+        for f in 02_Projects/PROJECT.*.md; do
+          name=$(basename "$f" .md | sed 's/PROJECT\.//')
+          content=$(head -50 "$f")
+          echo "{\"file\":\"$f\",\"name\":\"$name\"}"
+        done | jq -s '.'
+
+  # Step 3: Extract frontmatter from each file into structured JSON
+  - step: parse_frontmatter
+    handler: shell::capture
+    args:
+      cmd: >
+        for f in 02_Projects/PROJECT.*.md; do
+          name=$(basename "$f" .md | sed 's/PROJECT\.//')
+          lang=$(sed -n '/^language_stack:/s/.*\[\(.*\)\].*/\1/p' "$f" | tr -d ' ')
+          st=$(sed -n '/^status:/s/status: *//p' "$f")
+          domains=$(sed -n '/^domain:/s/.*\[\(.*\)\].*/\1/p' "$f" | tr -d ' ')
+          desc=$(sed -n '/^# /{ n; /^$/n; p; q; }' "$f" | head -1 | sed 's/"/\\"/g')
+          url=$(sed -n '/^  url:/s/.*url: *//p' "$f")
+          printf '{"name":"%s","status":"%s","lang":"%s","domains":"%s","desc":"%s","url":"%s"}\n' \
+            "$name" "$st" "$lang" "$domains" "$desc" "$url"
+        done | jq -s '.'
+
+  # Step 4: Build kgx ingest payloads and ingest each project
+  - step: ingest_to_kgx
+    handler: shell::capture
+    args:
+      cmd: >
+        for f in 02_Projects/PROJECT.*.md; do
+          name=$(basename "$f" .md | sed 's/PROJECT\.//')
+          lang=$(sed -n '/^language_stack:/s/.*\[\(.*\)\].*/\1/p' "$f" | tr -d ' ')
+          st=$(sed -n '/^status:/s/status: *//p' "$f")
+          domains=$(sed -n '/^domain:/s/.*\[\(.*\)\].*/\1/p' "$f" | tr -d ' ')
+          desc=$(sed -n '/^# /{ n; /^$/n; p; q; }' "$f" | head -1 | sed 's/"/\\"/g')
+
+          entities=$(printf '[{"name":"%s","type":"project","supporting_text":"%s"}' "$name" "$desc")
+          IFS=',' read -ra LANGS <<< "$lang"
+          for l in "${LANGS[@]}"; do
+            entities=$(printf '%s,{"name":"%s","type":"language","supporting_text":"Language used by %s"}' \
+              "$entities" "$l" "$name")
+          done
+          entities="$entities]"
+
+          relations="["
+          first=true
+          IFS=',' read -ra LANGS <<< "$lang"
+          for l in "${LANGS[@]}"; do
+            $first || relations="$relations,"
+            relations=$(printf '%s{"source":"%s","target":"%s","type":"uses_language","confidence":1.0,"supporting_text":"%s uses %s"}' \
+              "$relations" "$name" "$l" "$name" "$l")
+            first=false
+          done
+          IFS=',' read -ra DOMS <<< "$domains"
+          for d in "${DOMS[@]}"; do
+            $first || relations="$relations,"
+            relations=$(printf '%s{"source":"%s","target":"%s","type":"belongs_to_domain","confidence":1.0,"supporting_text":"%s belongs to %s domain"}' \
+              "$relations" "$name" "$d" "$name" "$d")
+            first=false
+          done
+          relations="$relations]"
+
+          printf '{"doc_id":"project_%s","title":"PROJECT.%s","source":"%s","raw_content":"%s Status: %s. Languages: %s.","entities":%s,"relations":%s}\n' \
+            "$name" "$name" "$f" "$desc" "$st" "$lang" "$entities" "$relations" \
+            | kgx ingest
+        done
+
+  # Step 5: Report stats
+  - step: stats
+    handler: shell::capture
+    args:
+      cmd: "kgx stats"

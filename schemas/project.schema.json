@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/89jobrien/devobs/schemas/project.schema.json",
+  "title": "PROJECT note frontmatter",
+  "description": "YAML frontmatter schema for PROJECT.*.md vault notes",
+  "type": "object",
+  "required": ["type", "status", "language_stack", "domain", "repo", "primary_machine", "tags"],
+  "properties": {
+    "type": {
+      "const": "project"
+    },
+    "status": {
+      "enum": ["active", "inactive", "archived"]
+    },
+    "language_stack": {
+      "type": "array",
+      "items": {
+        "enum": ["rust", "go", "python", "typescript", "nix", "shell", "html"]
+      },
+      "minItems": 1
+    },
+    "domain": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "repo": {
+      "type": "object",
+      "required": ["url", "path"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://github\\.com/89jobrien/"
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^~/dev/"
+        }
+      }
+    },
+    "primary_machine": {
+      "enum": ["m5-max", "jobrien-vm", "rentamac"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "contains": { "const": "project" }
+    },
+    "project_relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target", "type", "status"],
+        "properties": {
+          "target": { "type": "string" },
+          "type": {
+            "enum": [
+              "depends_on", "bootstraps", "observes", "consumes_from",
+              "feeds_into", "adjacent_to", "sibling_of", "replaces",
+              "replaced_by", "complements", "informed_by", "informs",
+              "indexes", "indexed_by", "aligns_schema_with",
+              "control_plane_for", "provisioned_by"
+            ]
+          },
+          "status": {
+            "enum": ["current", "potential", "stale"]
+          },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}
