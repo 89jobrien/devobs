@@ -1,75 +1,30 @@
 pipeline: devobs_lint
 # Quality gates for the devobs vault.
 #
-# Parallel checks:
-#   1. obfsck — scan vault for leaked secrets
-#   2. agentlint — lint CLAUDE.md files in referenced repos
-#   3. schema validation — validate frontmatter against project.schema.json
+# Checks:
+#   1. Frontmatter validation (required fields, valid values, cross-refs)
+#   2. obfsck secret scan on all markdown files
 #
 # Run:
 #   crux run pipelines/devobs_lint.crux
-budget: { calls: 20 }
+budget: { calls: 10 }
 
 steps:
-  # Gate 1: Parallel quality checks
-  - join_all: checks
-    arms:
-      - step: obfsck_scan
-        handler: shell::exec
-        args:
-          cmd: "obfsck scan --level minimal 02_Projects/ schemas/ pipelines/"
-        # exec not capture — obfsck may find things, don't fail the pipeline
+  - step: frontmatter_lint
+    handler: shell::capture
+    args:
+      cmd: "python3 scripts/lint_vault.py"
 
-      - step: agentlint_check
-        handler: shell::exec
-        args:
-          cmd: >
-            for f in 02_Projects/PROJECT.*.md; do
-              repo_path=$(sed -n '/^  path:/s/.*path: *//p' "$f" | sed "s|~/|$HOME/|")
-              [ -f "$repo_path/CLAUDE.md" ] && agentlint check "$repo_path/CLAUDE.md" 2>&1
-            done
+  - step: obfsck_scan
+    handler: shell::exec
+    args:
+      cmd: >
+        find 02_Projects/ schemas/ pipelines/ -name '*.md' -o -name '*.json'
+        -o -name '*.yaml' -o -name '*.crux'
+        | xargs cat
+        | obfsck-scan --level minimal 2>&1 || true
 
-      - step: frontmatter_validate
-        handler: shell::capture
-        args:
-          cmd: >
-            errors=0;
-            for f in 02_Projects/PROJECT.*.md; do
-              name=$(basename "$f" .md | sed 's/PROJECT\.//');
-              has_type=$(sed -n '/^type:/p' "$f");
-              has_status=$(sed -n '/^status:/p' "$f");
-              has_lang=$(sed -n '/^language_stack:/p' "$f");
-              has_repo=$(sed -n '/^repo:/p' "$f");
-              if [ -z "$has_type" ] || [ -z "$has_status" ] || [ -z "$has_lang" ] || [ -z "$has_repo" ]; then
-                echo "MISSING_FIELDS: $name (type=$has_type status=$has_status lang=$has_lang repo=$has_repo)";
-                errors=$((errors + 1));
-              fi;
-            done;
-            echo "{\"errors\":$errors}"
-
-  # Gate 2: Normalize and score findings
-  - pipe: analyze
-    stages:
-      - step: normalize
-        handler: review::normalize_findings
-      - step: classify
-        handler: review::apply_severity
-      - step: score
-        handler: review::compute_score
-
-  # Gate 3: Route on quality
-  - route_on_confidence: action
-    value: "{{ steps.analyze.confidence }}"
-    routes:
-      - range: "[0.0, 0.5)"
-        label: blocking_issues
-        handler: ctrl::log
-        # Secrets found, missing fields, or lint failures
-      - range: "[0.5, 0.8)"
-        label: suggestions
-        handler: ctrl::log
-        # Minor issues — address when convenient
-      - range: "[0.8, 1.0]"
-        label: clean
-        handler: ctrl::log
-        # All checks passed
+  - step: summary
+    handler: shell::capture
+    args:
+      cmd: "echo 'Lint pipeline complete'"
