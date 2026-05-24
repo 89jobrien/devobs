@@ -1,134 +1,6 @@
 {
   "nodes": [
     {
-      "id": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
-      "name": "orca-strait",
-      "type": "project",
-      "supporting_text": "Claude Code plugin.",
-      "source_docs": [
-        "project_orca-strait"
-      ]
-    },
-    {
-      "id": "5d83516d-82e3-4468-afa8-50638295def3",
-      "name": "security",
-      "type": "domain",
-      "supporting_text": "Domain of obfsck",
-      "source_docs": [
-        "project_obfsck",
-        "project_sanctum"
-      ]
-    },
-    {
-      "id": "1228cd09-19d4-4017-a2ec-6875a983ad6c",
-      "name": "dotfiles",
-      "type": "project",
-      "supporting_text": "Machine bootstrap — Nix flakes, GNU Stow, mise.",
-      "source_docs": [
-        "project_dotfiles"
-      ]
-    },
-    {
-      "id": "f1100577-aa0e-4cee-bc40-ffef90371a0e",
-      "name": "valerie",
-      "type": "project",
-      "supporting_text": "Handoff reconciliation tool.",
-      "source_docs": [
-        "project_valerie"
-      ]
-    },
-    {
-      "id": "e39bfc36-0797-40ff-ade4-bbbd9eaad072",
-      "name": "hooks",
-      "type": "domain",
-      "supporting_text": "Domain of coursers",
-      "source_docs": [
-        "project_coursers",
-        "project_hooklings"
-      ]
-    },
-    {
-      "id": "828c9f4f-2301-4f16-b35a-0814b6de9742",
-      "name": "braid",
-      "type": "project",
-      "supporting_text": "Multi-agent orchestration platform.",
-      "source_docs": [
-        "project_braid"
-      ]
-    },
-    {
-      "id": "b9d7e05d-5fba-447c-be17-342ba3656dbc",
-      "name": "marketplace",
-      "type": "domain",
-      "supporting_text": "Domain of bazaar",
-      "source_docs": [
-        "project_bazaar"
-      ]
-    },
-    {
-      "id": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
-      "name": "hj",
-      "type": "project",
-      "supporting_text": "Handoff CLI — YAML state management for session continuity",
-      "source_docs": [
-        "project_hj"
-      ]
-    },
-    {
-      "id": "117a7dcd-98b4-4e9f-b4ce-8dfff0bc599e",
-      "name": "execution",
-      "type": "domain",
-      "supporting_text": "Domain of sandbox",
-      "source_docs": [
-        "project_sandbox"
-      ]
-    },
-    {
-      "id": "2072814d-031d-42ec-b7d4-f1002b42b7d7",
-      "name": "resolution",
-      "type": "domain",
-      "supporting_text": "Domain of prefixe",
-      "source_docs": [
-        "project_prefixe"
-      ]
-    },
-    {
-      "id": "3085e6c9-16c1-4177-86b0-9fc72465035c",
-      "name": "handoff",
-      "type": "domain",
-      "supporting_text": "Domain of hj",
-      "source_docs": [
-        "project_hj"
-      ]
-    },
-    {
-      "id": "f6697082-8680-46c4-a90e-95fd28c016f3",
-      "name": "devkit",
-      "type": "project",
-      "supporting_text": "Go dev workflow toolkit — standup, council, timeline.",
-      "source_docs": [
-        "project_devkit"
-      ]
-    },
-    {
-      "id": "d94781fd-5251-46d6-b828-e4013e51812c",
-      "name": "langchainx",
-      "type": "project",
-      "supporting_text": "Rust port of LangChain — tools, chains, agents",
-      "source_docs": [
-        "project_langchainx"
-      ]
-    },
-    {
-      "id": "0d3fcb52-29e1-47eb-8cf6-99e552fd9c75",
-      "name": "mcpipe",
-      "type": "project",
-      "supporting_text": "MCP pipeline tool.",
-      "source_docs": [
-        "project_mcpipe"
-      ]
-    },
-    {
       "id": "6cf16057-0b5d-4138-ac02-897da0361b6b",
       "name": "ai",
       "type": "domain",
@@ -145,93 +17,40 @@
       ]
     },
     {
-      "id": "4f2eefe3-1f50-4e85-a830-d233b85ed561",
-      "name": "structured-output",
-      "type": "domain",
-      "supporting_text": "Domain of bamlish",
-      "source_docs": [
-        "project_bamlish"
-      ]
-    },
-    {
-      "id": "6f2b6126-4146-4319-8389-d5c442a2940b",
-      "name": "bazaar",
+      "id": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "name": "prefixe",
       "type": "project",
-      "supporting_text": "Claude Code plugin marketplace and showcase",
+      "supporting_text": "Post-hook probing resolution CLI with confirm/cycle/exhaust",
       "source_docs": [
-        "project_bazaar"
+        "project_prefixe"
       ]
     },
     {
-      "id": "22470f0b-d8ac-49a0-8059-c984734a1c63",
-      "name": "benchmarking",
+      "id": "5d83516d-82e3-4468-afa8-50638295def3",
+      "name": "security",
       "type": "domain",
-      "supporting_text": "Domain of praxis",
+      "supporting_text": "Domain of obfsck",
       "source_docs": [
-        "project_praxis"
+        "project_obfsck",
+        "project_sanctum"
       ]
     },
     {
-      "id": "717c07d0-63ee-4471-8279-3c953d11f56b",
-      "name": "scripting",
-      "type": "domain",
-      "supporting_text": "Domain of rx",
-      "source_docs": [
-        "project_rx"
-      ]
-    },
-    {
-      "id": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
-      "name": "agentlint",
+      "id": "c3e4c2bd-3866-4a75-8099-fba69eaa13fe",
+      "name": "sanctum",
       "type": "project",
-      "supporting_text": "Linter for AI agent patterns — sshpass, sleep, frontmatter heuristics",
+      "supporting_text": "Session security and auth guard.",
       "source_docs": [
-        "project_agentlint"
+        "project_sanctum"
       ]
     },
     {
-      "id": "64d1ba03-381a-44c3-8ad3-01c0de96fae9",
-      "name": "orchestration",
-      "type": "domain",
-      "supporting_text": "Domain of braid",
-      "source_docs": [
-        "project_braid"
-      ]
-    },
-    {
-      "id": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
-      "name": "sandbox",
+      "id": "7a3edc07-4a50-4a39-bac2-cb5b589212b0",
+      "name": "cannibalizer",
       "type": "project",
-      "supporting_text": "Execution tracing, subshell isolation, rustqual refactor",
+      "supporting_text": "Codebase classifier with precedence rules.",
       "source_docs": [
-        "project_sandbox"
-      ]
-    },
-    {
-      "id": "4f6f725b-b0eb-4287-bef8-d597bc456091",
-      "name": "state-management",
-      "type": "domain",
-      "supporting_text": "Domain of hj",
-      "source_docs": [
-        "project_hj"
-      ]
-    },
-    {
-      "id": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
-      "name": "hooklings",
-      "type": "project",
-      "supporting_text": "Feature-complete hook framework.",
-      "source_docs": [
-        "project_hooklings"
-      ]
-    },
-    {
-      "id": "a77fe602-6cbe-4ee4-96ec-7311cf2f699c",
-      "name": "ml",
-      "type": "domain",
-      "supporting_text": "Domain of mlrs",
-      "source_docs": [
-        "project_mlrs"
+        "project_cannibalizer"
       ]
     },
     {
@@ -244,51 +63,102 @@
       ]
     },
     {
-      "id": "95bda8f9-4e01-45be-81d3-140ddb3029fc",
-      "name": "testing",
-      "type": "domain",
-      "supporting_text": "Domain of propkit",
+      "id": "447a8c5f-263e-42e6-a5d1-fc3af086a19d",
+      "name": "harvestrs",
+      "type": "project",
+      "supporting_text": "Rust data harvester.",
       "source_docs": [
-        "project_propkit",
-        "project_sandbox"
+        "project_harvestrs"
       ]
     },
     {
-      "id": "b6afa689-b9d4-4c54-8d5e-8474256e0d39",
-      "name": "cli",
-      "type": "domain",
-      "supporting_text": "Domain of kgx",
+      "id": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
+      "name": "slashcrux",
+      "type": "project",
+      "supporting_text": "Slash + Crux integration workspace.",
       "source_docs": [
-        "project_kgx",
-        "project_prefixe"
+        "project_slashcrux"
       ]
     },
     {
-      "id": "b74d6508-8aba-4cff-b537-487815342e76",
-      "name": "llm",
-      "type": "domain",
-      "supporting_text": "Domain of langchainx",
+      "id": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "name": "langchainx",
+      "type": "project",
+      "supporting_text": "Rust port of LangChain — tools, chains, agents",
       "source_docs": [
-        "project_langchainx",
+        "project_langchainx"
+      ]
+    },
+    {
+      "id": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "name": "braid",
+      "type": "project",
+      "supporting_text": "Multi-agent orchestration platform.",
+      "source_docs": [
+        "project_braid"
+      ]
+    },
+    {
+      "id": "b0a7bcf6-8a77-44d5-af1b-b69f8a855292",
+      "name": "kgx",
+      "type": "project",
+      "supporting_text": "Knowledge graph CLI with wiki, BFS traversal, and provenance",
+      "source_docs": [
+        "project_kgx"
+      ]
+    },
+    {
+      "id": "f1100577-aa0e-4cee-bc40-ffef90371a0e",
+      "name": "valerie",
+      "type": "project",
+      "supporting_text": "Handoff reconciliation tool.",
+      "source_docs": [
+        "project_valerie"
+      ]
+    },
+    {
+      "id": "5d690373-b091-408b-9399-d2c984d67d60",
+      "name": "atelier",
+      "type": "project",
+      "supporting_text": "Claude Code plugin — skills, agents, forge/sentinel/herald.",
+      "source_docs": [
+        "project_atelier"
+      ]
+    },
+    {
+      "id": "a275881c-6daf-4d5a-83eb-4fdf8738752b",
+      "name": "rslm",
+      "type": "project",
+      "supporting_text": "Rust LLM integration library.",
+      "source_docs": [
         "project_rslm"
       ]
     },
     {
-      "id": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
-      "name": "coursers",
+      "id": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "name": "crux",
       "type": "project",
-      "supporting_text": "Claude Code hook runner — pre/post tool-use guards",
+      "supporting_text": "Agentic Rust DSL and runtime trace model",
       "source_docs": [
-        "project_coursers"
+        "project_crux"
       ]
     },
     {
-      "id": "a27e426d-33fb-45f7-b391-4812925fcd1e",
-      "name": "prefixe",
+      "id": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
+      "name": "sandbox",
       "type": "project",
-      "supporting_text": "Post-hook probing resolution CLI with confirm/cycle/exhaust",
+      "supporting_text": "Execution tracing, subshell isolation, rustqual refactor",
       "source_docs": [
-        "project_prefixe"
+        "project_sandbox"
+      ]
+    },
+    {
+      "id": "a40a474b-2bee-4932-ba29-7df9a7bb7ff6",
+      "name": "knowledge-graphs",
+      "type": "domain",
+      "supporting_text": "Domain of kgx",
+      "source_docs": [
+        "project_kgx"
       ]
     },
     {
@@ -304,241 +174,13 @@
       ]
     },
     {
-      "id": "447a8c5f-263e-42e6-a5d1-fc3af086a19d",
-      "name": "harvestrs",
-      "type": "project",
-      "supporting_text": "Rust data harvester.",
-      "source_docs": [
-        "project_harvestrs"
-      ]
-    },
-    {
-      "id": "49061975-1cc9-4dc4-a722-f7aa2559df20",
-      "name": "plugins",
-      "type": "domain",
-      "supporting_text": "Domain of bazaar",
-      "source_docs": [
-        "project_bazaar",
-        "project_godmode"
-      ]
-    },
-    {
-      "id": "582968b1-b9ff-4456-a442-0ad202c11c68",
-      "name": "minibox",
-      "type": "project",
-      "supporting_text": "Docker-like container runtime in Rust with hexagonal architecture",
-      "source_docs": [
-        "project_minibox"
-      ]
-    },
-    {
-      "id": "a275881c-6daf-4d5a-83eb-4fdf8738752b",
-      "name": "rslm",
-      "type": "project",
-      "supporting_text": "Rust LLM integration library.",
-      "source_docs": [
-        "project_rslm"
-      ]
-    },
-    {
-      "id": "90c646a6-a0c0-4ed9-a2f7-301e867e76de",
-      "name": "infrastructure",
-      "type": "domain",
-      "supporting_text": "Domain of dotfiles",
-      "source_docs": [
-        "project_dotfiles",
-        "project_notfiles"
-      ]
-    },
-    {
-      "id": "a40a474b-2bee-4932-ba29-7df9a7bb7ff6",
-      "name": "knowledge-graphs",
-      "type": "domain",
-      "supporting_text": "Domain of kgx",
-      "source_docs": [
-        "project_kgx"
-      ]
-    },
-    {
-      "id": "cdbb6cd9-2c16-4529-b871-9b6948247be1",
-      "name": "mcp",
-      "type": "domain",
-      "supporting_text": "Domain of mcpipe",
-      "source_docs": [
-        "project_mcpipe"
-      ]
-    },
-    {
-      "id": "5b61e846-95f8-4288-821a-69603e880f49",
-      "name": "dsl",
-      "type": "domain",
-      "supporting_text": "Domain of crux",
-      "source_docs": [
-        "project_crux"
-      ]
-    },
-    {
-      "id": "3d6c406b-53fe-4bcf-9d49-ca0112e3a4e2",
-      "name": "propkit",
-      "type": "project",
-      "supporting_text": "Property test analyzer, generator, and scaffold.",
-      "source_docs": [
-        "project_propkit"
-      ]
-    },
-    {
-      "id": "e5b5d00e-d1a1-4b15-970e-850b173f36ee",
-      "name": "task-management",
-      "type": "domain",
-      "supporting_text": "Domain of doob",
-      "source_docs": [
-        "project_doob"
-      ]
-    },
-    {
-      "id": "0bbc8e16-c64f-4f39-b666-85ea2b0bcde0",
-      "name": "go",
-      "type": "language",
-      "supporting_text": "Language used by devkit",
-      "source_docs": [
-        "project_devkit",
-        "project_sanctum"
-      ]
-    },
-    {
-      "id": "e6c260f5-5af8-4d89-a1a1-9daca0bba666",
-      "name": "mlrs",
-      "type": "project",
-      "supporting_text": "ML utilities in Rust.",
-      "source_docs": [
-        "project_mlrs"
-      ]
-    },
-    {
-      "id": "d2793e7c-1938-44ad-9041-099aefff480a",
-      "name": "nix",
-      "type": "language",
-      "supporting_text": "Language used by dotfiles",
-      "source_docs": [
-        "project_dotfiles"
-      ]
-    },
-    {
-      "id": "619f9aa1-6183-4469-8504-793e729de96b",
-      "name": "steve",
-      "type": "project",
-      "supporting_text": "Python agent framework with skills and commands.",
-      "source_docs": [
-        "project_steve"
-      ]
-    },
-    {
-      "id": "ec4e9b7b-51bc-4ff5-9e09-a961cb30cceb",
-      "name": "notfiles",
-      "type": "project",
-      "supporting_text": "Rust replacement for dotfiles bootstrap.",
-      "source_docs": [
-        "project_notfiles"
-      ]
-    },
-    {
-      "id": "d25b1eca-21de-4104-95b7-e351ffc4052e",
-      "name": "runtime",
-      "type": "domain",
-      "supporting_text": "Domain of minibox",
-      "source_docs": [
-        "project_minibox",
-        "project_rx"
-      ]
-    },
-    {
-      "id": "f611d6a3-0e77-407b-94ce-5054c32db861",
-      "name": "praxis",
-      "type": "project",
-      "supporting_text": "Agent benchmark harness with run-cycle extraction",
-      "source_docs": [
-        "project_praxis"
-      ]
-    },
-    {
-      "id": "2f652551-a8e3-47df-8d36-185bc4dc09dc",
-      "name": "rx",
-      "type": "project",
-      "supporting_text": "Script installer and runner CLI with multi-runtime support",
-      "source_docs": [
-        "project_rx"
-      ]
-    },
-    {
-      "id": "475e10c5-a650-48dd-b7c4-c390808eddcd",
-      "name": "ci",
+      "id": "e39bfc36-0797-40ff-ade4-bbbd9eaad072",
+      "name": "hooks",
       "type": "domain",
       "supporting_text": "Domain of coursers",
       "source_docs": [
-        "project_coursers"
-      ]
-    },
-    {
-      "id": "a5599baf-3d07-4d05-b60a-a0fc177ee107",
-      "name": "linting",
-      "type": "domain",
-      "supporting_text": "Domain of agentlint",
-      "source_docs": [
-        "project_agentlint"
-      ]
-    },
-    {
-      "id": "5eb12d52-59dd-4da6-b2e5-c7eab2bb88d3",
-      "name": "python",
-      "type": "language",
-      "supporting_text": "Language used by steve",
-      "source_docs": [
-        "project_steve"
-      ]
-    },
-    {
-      "id": "d47be350-32bb-4ef3-b86c-188d60eb0376",
-      "name": "godmode",
-      "type": "project",
-      "supporting_text": "Claude Code plugin — skills, agents, task graphs",
-      "source_docs": [
-        "project_godmode"
-      ]
-    },
-    {
-      "id": "7a3edc07-4a50-4a39-bac2-cb5b589212b0",
-      "name": "cannibalizer",
-      "type": "project",
-      "supporting_text": "Codebase classifier with precedence rules.",
-      "source_docs": [
-        "project_cannibalizer"
-      ]
-    },
-    {
-      "id": "b0a7bcf6-8a77-44d5-af1b-b69f8a855292",
-      "name": "kgx",
-      "type": "project",
-      "supporting_text": "Knowledge graph CLI with wiki, BFS traversal, and provenance",
-      "source_docs": [
-        "project_kgx"
-      ]
-    },
-    {
-      "id": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
-      "name": "crux",
-      "type": "project",
-      "supporting_text": "Agentic Rust DSL and runtime trace model",
-      "source_docs": [
-        "project_crux"
-      ]
-    },
-    {
-      "id": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
-      "name": "obfsck",
-      "type": "project",
-      "supporting_text": "Secret scanner and redaction CLI",
-      "source_docs": [
-        "project_obfsck"
+        "project_coursers",
+        "project_hooklings"
       ]
     },
     {
@@ -578,6 +220,117 @@
       ]
     },
     {
+      "id": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "name": "hj",
+      "type": "project",
+      "supporting_text": "Handoff CLI — YAML state management for session continuity",
+      "source_docs": [
+        "project_hj"
+      ]
+    },
+    {
+      "id": "cdbb6cd9-2c16-4529-b871-9b6948247be1",
+      "name": "mcp",
+      "type": "domain",
+      "supporting_text": "Domain of mcpipe",
+      "source_docs": [
+        "project_mcpipe"
+      ]
+    },
+    {
+      "id": "4f2eefe3-1f50-4e85-a830-d233b85ed561",
+      "name": "structured-output",
+      "type": "domain",
+      "supporting_text": "Domain of bamlish",
+      "source_docs": [
+        "project_bamlish"
+      ]
+    },
+    {
+      "id": "22470f0b-d8ac-49a0-8059-c984734a1c63",
+      "name": "benchmarking",
+      "type": "domain",
+      "supporting_text": "Domain of praxis",
+      "source_docs": [
+        "project_praxis"
+      ]
+    },
+    {
+      "id": "5b61e846-95f8-4288-821a-69603e880f49",
+      "name": "dsl",
+      "type": "domain",
+      "supporting_text": "Domain of crux",
+      "source_docs": [
+        "project_crux"
+      ]
+    },
+    {
+      "id": "475e10c5-a650-48dd-b7c4-c390808eddcd",
+      "name": "ci",
+      "type": "domain",
+      "supporting_text": "Domain of coursers",
+      "source_docs": [
+        "project_coursers"
+      ]
+    },
+    {
+      "id": "b74d6508-8aba-4cff-b537-487815342e76",
+      "name": "llm",
+      "type": "domain",
+      "supporting_text": "Domain of langchainx",
+      "source_docs": [
+        "project_langchainx",
+        "project_rslm"
+      ]
+    },
+    {
+      "id": "64d1ba03-381a-44c3-8ad3-01c0de96fae9",
+      "name": "orchestration",
+      "type": "domain",
+      "supporting_text": "Domain of braid",
+      "source_docs": [
+        "project_braid"
+      ]
+    },
+    {
+      "id": "5ce7d52e-bb82-4498-a38b-abd452e8d178",
+      "name": "containers",
+      "type": "domain",
+      "supporting_text": "Domain of minibox",
+      "source_docs": [
+        "project_minibox"
+      ]
+    },
+    {
+      "id": "49061975-1cc9-4dc4-a722-f7aa2559df20",
+      "name": "plugins",
+      "type": "domain",
+      "supporting_text": "Domain of bazaar",
+      "source_docs": [
+        "project_bazaar",
+        "project_godmode"
+      ]
+    },
+    {
+      "id": "f6697082-8680-46c4-a90e-95fd28c016f3",
+      "name": "devkit",
+      "type": "project",
+      "supporting_text": "Go dev workflow toolkit — standup, council, timeline.",
+      "source_docs": [
+        "project_devkit"
+      ]
+    },
+    {
+      "id": "95bda8f9-4e01-45be-81d3-140ddb3029fc",
+      "name": "testing",
+      "type": "domain",
+      "supporting_text": "Domain of propkit",
+      "source_docs": [
+        "project_propkit",
+        "project_sandbox"
+      ]
+    },
+    {
       "id": "8fd98f2a-c2ea-4a90-9954-5987bc1ae18c",
       "name": "scanning",
       "type": "domain",
@@ -587,57 +340,67 @@
       ]
     },
     {
-      "id": "7130c1a0-1598-46f8-b409-b2e394239d74",
-      "name": "looprs",
+      "id": "e6c260f5-5af8-4d89-a1a1-9daca0bba666",
+      "name": "mlrs",
       "type": "project",
-      "supporting_text": "Core Rust agent framework — workspace v0.3.1.",
+      "supporting_text": "ML utilities in Rust.",
       "source_docs": [
-        "project_looprs"
+        "project_mlrs"
       ]
     },
     {
-      "id": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
-      "name": "doob",
+      "id": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "name": "godmode",
       "type": "project",
-      "supporting_text": "Todo and task tracker with sync adapters.",
+      "supporting_text": "Claude Code plugin — skills, agents, task graphs",
       "source_docs": [
-        "project_doob"
+        "project_godmode"
       ]
     },
     {
-      "id": "c3e4c2bd-3866-4a75-8099-fba69eaa13fe",
-      "name": "sanctum",
+      "id": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "name": "coursers",
       "type": "project",
-      "supporting_text": "Session security and auth guard.",
+      "supporting_text": "Claude Code hook runner — pre/post tool-use guards",
       "source_docs": [
-        "project_sanctum"
+        "project_coursers"
       ]
     },
     {
-      "id": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
-      "name": "slashcrux",
-      "type": "project",
-      "supporting_text": "Slash + Crux integration workspace.",
+      "id": "d25b1eca-21de-4104-95b7-e351ffc4052e",
+      "name": "runtime",
+      "type": "domain",
+      "supporting_text": "Domain of minibox",
       "source_docs": [
-        "project_slashcrux"
+        "project_minibox",
+        "project_rx"
       ]
     },
     {
-      "id": "5d690373-b091-408b-9399-d2c984d67d60",
-      "name": "atelier",
+      "id": "582968b1-b9ff-4456-a442-0ad202c11c68",
+      "name": "minibox",
       "type": "project",
-      "supporting_text": "Claude Code plugin — skills, agents, forge/sentinel/herald.",
+      "supporting_text": "Docker-like container runtime in Rust with hexagonal architecture",
       "source_docs": [
-        "project_atelier"
+        "project_minibox"
       ]
     },
     {
-      "id": "6caa3a8a-eeaf-4cd5-bcd1-ce7c0603bb6d",
-      "name": "bamlish",
-      "type": "project",
-      "supporting_text": "BAML-related Rust tooling for structured LLM output.",
+      "id": "b9d7e05d-5fba-447c-be17-342ba3656dbc",
+      "name": "marketplace",
+      "type": "domain",
+      "supporting_text": "Domain of bazaar",
       "source_docs": [
-        "project_bamlish"
+        "project_bazaar"
+      ]
+    },
+    {
+      "id": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
+      "name": "obfsck",
+      "type": "project",
+      "supporting_text": "Secret scanner and redaction CLI",
+      "source_docs": [
+        "project_obfsck"
       ]
     },
     {
@@ -658,30 +421,176 @@
       ]
     },
     {
-      "id": "6c0dcb9e-3440-438e-9494-b74893380903",
-      "name": "web",
+      "id": "e5b5d00e-d1a1-4b15-970e-850b173f36ee",
+      "name": "task-management",
       "type": "domain",
-      "supporting_text": "Domain of 89jobrien.github.io",
+      "supporting_text": "Domain of doob",
       "source_docs": [
-        "project_89jobrien.github.io"
+        "project_doob"
       ]
     },
     {
-      "id": "f9fc8f80-ccb1-407a-93e9-054698e5a9a4",
-      "name": "89jobrien.github.io",
+      "id": "ec4e9b7b-51bc-4ff5-9e09-a961cb30cceb",
+      "name": "notfiles",
       "type": "project",
-      "supporting_text": "GitHub profile page with live stats.",
+      "supporting_text": "Rust replacement for dotfiles bootstrap.",
       "source_docs": [
-        "project_89jobrien.github.io"
+        "project_notfiles"
       ]
     },
     {
-      "id": "5ce7d52e-bb82-4498-a38b-abd452e8d178",
-      "name": "containers",
+      "id": "717c07d0-63ee-4471-8279-3c953d11f56b",
+      "name": "scripting",
       "type": "domain",
-      "supporting_text": "Domain of minibox",
+      "supporting_text": "Domain of rx",
       "source_docs": [
-        "project_minibox"
+        "project_rx"
+      ]
+    },
+    {
+      "id": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "name": "orca-strait",
+      "type": "project",
+      "supporting_text": "Claude Code plugin.",
+      "source_docs": [
+        "project_orca-strait"
+      ]
+    },
+    {
+      "id": "6f2b6126-4146-4319-8389-d5c442a2940b",
+      "name": "bazaar",
+      "type": "project",
+      "supporting_text": "Claude Code plugin marketplace and showcase",
+      "source_docs": [
+        "project_bazaar"
+      ]
+    },
+    {
+      "id": "a77fe602-6cbe-4ee4-96ec-7311cf2f699c",
+      "name": "ml",
+      "type": "domain",
+      "supporting_text": "Domain of mlrs",
+      "source_docs": [
+        "project_mlrs"
+      ]
+    },
+    {
+      "id": "3d6c406b-53fe-4bcf-9d49-ca0112e3a4e2",
+      "name": "propkit",
+      "type": "project",
+      "supporting_text": "Property test analyzer, generator, and scaffold.",
+      "source_docs": [
+        "project_propkit"
+      ]
+    },
+    {
+      "id": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "name": "looprs",
+      "type": "project",
+      "supporting_text": "Core Rust agent framework — workspace v0.3.1.",
+      "source_docs": [
+        "project_looprs"
+      ]
+    },
+    {
+      "id": "3085e6c9-16c1-4177-86b0-9fc72465035c",
+      "name": "handoff",
+      "type": "domain",
+      "supporting_text": "Domain of hj",
+      "source_docs": [
+        "project_hj"
+      ]
+    },
+    {
+      "id": "a5599baf-3d07-4d05-b60a-a0fc177ee107",
+      "name": "linting",
+      "type": "domain",
+      "supporting_text": "Domain of agentlint",
+      "source_docs": [
+        "project_agentlint"
+      ]
+    },
+    {
+      "id": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "name": "doob",
+      "type": "project",
+      "supporting_text": "Todo and task tracker with sync adapters.",
+      "source_docs": [
+        "project_doob"
+      ]
+    },
+    {
+      "id": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "name": "hooklings",
+      "type": "project",
+      "supporting_text": "Feature-complete hook framework.",
+      "source_docs": [
+        "project_hooklings"
+      ]
+    },
+    {
+      "id": "5eb12d52-59dd-4da6-b2e5-c7eab2bb88d3",
+      "name": "python",
+      "type": "language",
+      "supporting_text": "Language used by steve",
+      "source_docs": [
+        "project_steve"
+      ]
+    },
+    {
+      "id": "2072814d-031d-42ec-b7d4-f1002b42b7d7",
+      "name": "resolution",
+      "type": "domain",
+      "supporting_text": "Domain of prefixe",
+      "source_docs": [
+        "project_prefixe"
+      ]
+    },
+    {
+      "id": "0bbc8e16-c64f-4f39-b666-85ea2b0bcde0",
+      "name": "go",
+      "type": "language",
+      "supporting_text": "Language used by devkit",
+      "source_docs": [
+        "project_devkit",
+        "project_sanctum"
+      ]
+    },
+    {
+      "id": "2f652551-a8e3-47df-8d36-185bc4dc09dc",
+      "name": "rx",
+      "type": "project",
+      "supporting_text": "Script installer and runner CLI with multi-runtime support",
+      "source_docs": [
+        "project_rx"
+      ]
+    },
+    {
+      "id": "1228cd09-19d4-4017-a2ec-6875a983ad6c",
+      "name": "dotfiles",
+      "type": "project",
+      "supporting_text": "Machine bootstrap — Nix flakes, GNU Stow, mise.",
+      "source_docs": [
+        "project_dotfiles"
+      ]
+    },
+    {
+      "id": "0d3fcb52-29e1-47eb-8cf6-99e552fd9c75",
+      "name": "mcpipe",
+      "type": "project",
+      "supporting_text": "MCP pipeline tool.",
+      "source_docs": [
+        "project_mcpipe"
+      ]
+    },
+    {
+      "id": "90c646a6-a0c0-4ed9-a2f7-301e867e76de",
+      "name": "infrastructure",
+      "type": "domain",
+      "supporting_text": "Domain of dotfiles",
+      "source_docs": [
+        "project_dotfiles",
+        "project_notfiles"
       ]
     },
     {
@@ -698,6 +607,97 @@
         "project_looprs",
         "project_praxis",
         "project_slashcrux",
+        "project_steve"
+      ]
+    },
+    {
+      "id": "d2793e7c-1938-44ad-9041-099aefff480a",
+      "name": "nix",
+      "type": "language",
+      "supporting_text": "Language used by dotfiles",
+      "source_docs": [
+        "project_dotfiles"
+      ]
+    },
+    {
+      "id": "6c0dcb9e-3440-438e-9494-b74893380903",
+      "name": "web",
+      "type": "domain",
+      "supporting_text": "Domain of 89jobrien.github.io",
+      "source_docs": [
+        "project_89jobrien.github.io"
+      ]
+    },
+    {
+      "id": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
+      "name": "agentlint",
+      "type": "project",
+      "supporting_text": "Linter for AI agent patterns — sshpass, sleep, frontmatter heuristics",
+      "source_docs": [
+        "project_agentlint"
+      ]
+    },
+    {
+      "id": "b6afa689-b9d4-4c54-8d5e-8474256e0d39",
+      "name": "cli",
+      "type": "domain",
+      "supporting_text": "Domain of kgx",
+      "source_docs": [
+        "project_kgx",
+        "project_prefixe"
+      ]
+    },
+    {
+      "id": "6caa3a8a-eeaf-4cd5-bcd1-ce7c0603bb6d",
+      "name": "bamlish",
+      "type": "project",
+      "supporting_text": "BAML-related Rust tooling for structured LLM output.",
+      "source_docs": [
+        "project_bamlish"
+      ]
+    },
+    {
+      "id": "117a7dcd-98b4-4e9f-b4ce-8dfff0bc599e",
+      "name": "execution",
+      "type": "domain",
+      "supporting_text": "Domain of sandbox",
+      "source_docs": [
+        "project_sandbox"
+      ]
+    },
+    {
+      "id": "f9fc8f80-ccb1-407a-93e9-054698e5a9a4",
+      "name": "89jobrien.github.io",
+      "type": "project",
+      "supporting_text": "GitHub profile page with live stats.",
+      "source_docs": [
+        "project_89jobrien.github.io"
+      ]
+    },
+    {
+      "id": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "name": "praxis",
+      "type": "project",
+      "supporting_text": "Agent benchmark harness with run-cycle extraction",
+      "source_docs": [
+        "project_praxis"
+      ]
+    },
+    {
+      "id": "4f6f725b-b0eb-4287-bef8-d597bc456091",
+      "name": "state-management",
+      "type": "domain",
+      "supporting_text": "Domain of hj",
+      "source_docs": [
+        "project_hj"
+      ]
+    },
+    {
+      "id": "619f9aa1-6183-4469-8504-793e729de96b",
+      "name": "steve",
+      "type": "project",
+      "supporting_text": "Python agent framework with skills and commands.",
+      "source_docs": [
         "project_steve"
       ]
     }
@@ -5178,6 +5178,1311 @@
     },
     {
       "id": "216441e8-068f-41dd-abe7-85b13a87e936",
+      "source": "2ae42ac8-5d77-4284-ba72-7641674f2f5d",
+      "target": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "type": "feeds_into",
+      "confidence": 0.9,
+      "supporting_text": "warpx feeds_into doob",
+      "source_doc": "project_warpx"
+    },
+    {
+      "id": "3416942f-9f92-4194-a0f5-218ba18e6ddc",
+      "source": "f9fc8f80-ccb1-407a-93e9-054698e5a9a4",
+      "target": "c7ad56e7-b831-4740-98b7-ff8b89e69767",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "89jobrien.github.io uses shell",
+      "source_doc": "project_89jobrien.github.io"
+    },
+    {
+      "id": "9ab7d83e-a4a1-458d-b2d0-de006a30c489",
+      "source": "f9fc8f80-ccb1-407a-93e9-054698e5a9a4",
+      "target": "6c0dcb9e-3440-438e-9494-b74893380903",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "89jobrien.github.io belongs to web domain",
+      "source_doc": "project_89jobrien.github.io"
+    },
+    {
+      "id": "3e2c34d0-a961-4041-ae24-040f1fff0869",
+      "source": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "agentlint uses rust",
+      "source_doc": "project_agentlint"
+    },
+    {
+      "id": "8498773f-7ae5-40ed-bea2-f14f337084bc",
+      "source": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "agentlint belongs to agents domain",
+      "source_doc": "project_agentlint"
+    },
+    {
+      "id": "1d714fa5-d795-4177-852f-29f18e34d88b",
+      "source": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
+      "target": "a5599baf-3d07-4d05-b60a-a0fc177ee107",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "agentlint belongs to linting domain",
+      "source_doc": "project_agentlint"
+    },
+    {
+      "id": "47b9f168-f54a-4409-992c-2a1a467b1dc1",
+      "source": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
+      "target": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "agentlint complements obfsck",
+      "source_doc": "project_agentlint"
+    },
+    {
+      "id": "1f177351-3978-4e68-a495-c60b2edd1c35",
+      "source": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
+      "target": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "agentlint complements sandbox",
+      "source_doc": "project_agentlint"
+    },
+    {
+      "id": "d6c68003-30f0-49e4-a6a0-2a48416f24ba",
+      "source": "5d690373-b091-408b-9399-d2c984d67d60",
+      "target": "c7ad56e7-b831-4740-98b7-ff8b89e69767",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "atelier uses shell",
+      "source_doc": "project_atelier"
+    },
+    {
+      "id": "889a5541-87ee-46ff-b9cd-2cc75d7630cf",
+      "source": "5d690373-b091-408b-9399-d2c984d67d60",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "atelier belongs to developer-tools domain",
+      "source_doc": "project_atelier"
+    },
+    {
+      "id": "d5244917-6aee-4443-8e07-1d4de6f5f8c4",
+      "source": "5d690373-b091-408b-9399-d2c984d67d60",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "atelier belongs to ai domain",
+      "source_doc": "project_atelier"
+    },
+    {
+      "id": "6dd0869c-4208-4662-901e-23657041442d",
+      "source": "5d690373-b091-408b-9399-d2c984d67d60",
+      "target": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "atelier sibling_of godmode",
+      "source_doc": "project_atelier"
+    },
+    {
+      "id": "d521a72f-5ebf-4811-a173-f4085206a554",
+      "source": "5d690373-b091-408b-9399-d2c984d67d60",
+      "target": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "atelier sibling_of orca-strait",
+      "source_doc": "project_atelier"
+    },
+    {
+      "id": "10adc733-fab8-4d60-823d-f54aa2cf4477",
+      "source": "6caa3a8a-eeaf-4cd5-bcd1-ce7c0603bb6d",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "bamlish uses rust",
+      "source_doc": "project_bamlish"
+    },
+    {
+      "id": "21828df0-fad4-4e86-8e1a-2a2384863aca",
+      "source": "6caa3a8a-eeaf-4cd5-bcd1-ce7c0603bb6d",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "bamlish belongs to ai domain",
+      "source_doc": "project_bamlish"
+    },
+    {
+      "id": "47c2d01d-4458-4e1b-b405-41e515b28854",
+      "source": "6caa3a8a-eeaf-4cd5-bcd1-ce7c0603bb6d",
+      "target": "4f2eefe3-1f50-4e85-a830-d233b85ed561",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "bamlish belongs to structured-output domain",
+      "source_doc": "project_bamlish"
+    },
+    {
+      "id": "c3cf9aca-87f8-406d-acc0-9d9e596e2a52",
+      "source": "6caa3a8a-eeaf-4cd5-bcd1-ce7c0603bb6d",
+      "target": "a275881c-6daf-4d5a-83eb-4fdf8738752b",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "bamlish complements rslm",
+      "source_doc": "project_bamlish"
+    },
+    {
+      "id": "d54ea4e7-be93-427b-9921-be76fea9984e",
+      "source": "6f2b6126-4146-4319-8389-d5c442a2940b",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "bazaar uses rust",
+      "source_doc": "project_bazaar"
+    },
+    {
+      "id": "89594c3b-adbc-4a5b-b433-710261716eb8",
+      "source": "6f2b6126-4146-4319-8389-d5c442a2940b",
+      "target": "49061975-1cc9-4dc4-a722-f7aa2559df20",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "bazaar belongs to plugins domain",
+      "source_doc": "project_bazaar"
+    },
+    {
+      "id": "a422499b-dea8-41e1-af67-a78f83c07bfb",
+      "source": "6f2b6126-4146-4319-8389-d5c442a2940b",
+      "target": "b9d7e05d-5fba-447c-be17-342ba3656dbc",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "bazaar belongs to marketplace domain",
+      "source_doc": "project_bazaar"
+    },
+    {
+      "id": "6075595d-f908-43b6-bf98-76be7e922064",
+      "source": "6f2b6126-4146-4319-8389-d5c442a2940b",
+      "target": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "type": "consumes_from",
+      "confidence": 0.9,
+      "supporting_text": "bazaar consumes_from godmode",
+      "source_doc": "project_bazaar"
+    },
+    {
+      "id": "6c469558-08b5-424b-9dc2-4064c1cd055d",
+      "source": "6f2b6126-4146-4319-8389-d5c442a2940b",
+      "target": "5d690373-b091-408b-9399-d2c984d67d60",
+      "type": "consumes_from",
+      "confidence": 0.9,
+      "supporting_text": "bazaar consumes_from atelier",
+      "source_doc": "project_bazaar"
+    },
+    {
+      "id": "e9218806-7768-4110-9a7f-eae67510f3af",
+      "source": "6f2b6126-4146-4319-8389-d5c442a2940b",
+      "target": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "type": "consumes_from",
+      "confidence": 0.9,
+      "supporting_text": "bazaar consumes_from orca-strait",
+      "source_doc": "project_bazaar"
+    },
+    {
+      "id": "b708fdbd-57f3-45a8-a788-39463534fd87",
+      "source": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "braid uses rust",
+      "source_doc": "project_braid"
+    },
+    {
+      "id": "5c516e3e-6c38-4191-a0f9-430fc9915ad4",
+      "source": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "braid belongs to ai domain",
+      "source_doc": "project_braid"
+    },
+    {
+      "id": "83e29913-94dc-4a0b-8885-cae39de3bd90",
+      "source": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "braid belongs to agents domain",
+      "source_doc": "project_braid"
+    },
+    {
+      "id": "229a7adb-1be9-48f0-8570-7e6bea1013da",
+      "source": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "target": "64d1ba03-381a-44c3-8ad3-01c0de96fae9",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "braid belongs to orchestration domain",
+      "source_doc": "project_braid"
+    },
+    {
+      "id": "b88986ae-07fe-4f34-abf6-29e097989d55",
+      "source": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "target": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "braid sibling_of looprs",
+      "source_doc": "project_braid"
+    },
+    {
+      "id": "357b0998-3fb7-4d2e-8585-f0866baad1ef",
+      "source": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "target": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "braid sibling_of langchainx",
+      "source_doc": "project_braid"
+    },
+    {
+      "id": "f3acdeb8-86a6-4a82-8476-39504112c4d4",
+      "source": "7a3edc07-4a50-4a39-bac2-cb5b589212b0",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "cannibalizer uses rust",
+      "source_doc": "project_cannibalizer"
+    },
+    {
+      "id": "c541ad0b-c9d9-440f-a0c7-8b81d7e38f15",
+      "source": "7a3edc07-4a50-4a39-bac2-cb5b589212b0",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "cannibalizer belongs to developer-tools domain",
+      "source_doc": "project_cannibalizer"
+    },
+    {
+      "id": "4c476dcd-ec13-45cb-83c1-e9a544272acf",
+      "source": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "coursers uses rust",
+      "source_doc": "project_coursers"
+    },
+    {
+      "id": "df6d592c-89f6-455b-b453-1e0abefe2558",
+      "source": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "target": "e39bfc36-0797-40ff-ade4-bbbd9eaad072",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "coursers belongs to hooks domain",
+      "source_doc": "project_coursers"
+    },
+    {
+      "id": "49ea6709-afee-4159-8e88-46935019e62e",
+      "source": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "target": "475e10c5-a650-48dd-b7c4-c390808eddcd",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "coursers belongs to ci domain",
+      "source_doc": "project_coursers"
+    },
+    {
+      "id": "6a340179-d623-46c5-8172-6c1e409e3cfd",
+      "source": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "target": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "supporting_text": "coursers depends_on prefixe",
+      "source_doc": "project_coursers"
+    },
+    {
+      "id": "f0db8b00-d8b5-49b7-8ea6-9e115b432181",
+      "source": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "target": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "coursers adjacent_to hooklings",
+      "source_doc": "project_coursers"
+    },
+    {
+      "id": "21e3d397-0ea0-4ce8-8118-8005b4d88edd",
+      "source": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "crux uses rust",
+      "source_doc": "project_crux"
+    },
+    {
+      "id": "2e69697b-7cb0-41ef-b82b-edb046168097",
+      "source": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "crux belongs to agents domain",
+      "source_doc": "project_crux"
+    },
+    {
+      "id": "4b10e111-2c02-4509-9082-8eb6e785100e",
+      "source": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "target": "5b61e846-95f8-4288-821a-69603e880f49",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "crux belongs to dsl domain",
+      "source_doc": "project_crux"
+    },
+    {
+      "id": "16eed58d-f0ab-4cb5-b940-c20a3caca8d9",
+      "source": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "target": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "supporting_text": "crux depends_on slashcrux",
+      "source_doc": "project_crux"
+    },
+    {
+      "id": "3424560d-98b5-4ee0-b36d-89c72607e097",
+      "source": "f6697082-8680-46c4-a90e-95fd28c016f3",
+      "target": "0bbc8e16-c64f-4f39-b666-85ea2b0bcde0",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "devkit uses go",
+      "source_doc": "project_devkit"
+    },
+    {
+      "id": "5e8f1124-3914-4507-828e-dcd54bffa248",
+      "source": "f6697082-8680-46c4-a90e-95fd28c016f3",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "devkit belongs to developer-tools domain",
+      "source_doc": "project_devkit"
+    },
+    {
+      "id": "660ae008-e0d1-4539-ae17-9a0af77ffa28",
+      "source": "f6697082-8680-46c4-a90e-95fd28c016f3",
+      "target": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "devkit complements doob",
+      "source_doc": "project_devkit"
+    },
+    {
+      "id": "9863b271-2824-481d-ab2d-b3257d6847c7",
+      "source": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "doob uses rust",
+      "source_doc": "project_doob"
+    },
+    {
+      "id": "6df7f72a-998e-4493-b8b3-3f4483b88a43",
+      "source": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "doob belongs to developer-tools domain",
+      "source_doc": "project_doob"
+    },
+    {
+      "id": "923e0623-92d1-4e98-b5ab-506bfe907b45",
+      "source": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "target": "e5b5d00e-d1a1-4b15-970e-850b173f36ee",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "doob belongs to task-management domain",
+      "source_doc": "project_doob"
+    },
+    {
+      "id": "d2b3cd87-a680-4cf0-925e-31142f49b29d",
+      "source": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "target": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "doob adjacent_to hj",
+      "source_doc": "project_doob"
+    },
+    {
+      "id": "c0c850f9-8f79-49f3-b5e1-c2b5a2a251c5",
+      "source": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "target": "f1100577-aa0e-4cee-bc40-ffef90371a0e",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "doob adjacent_to valerie",
+      "source_doc": "project_doob"
+    },
+    {
+      "id": "635fd826-8c82-49ec-a38e-3e4a8f738160",
+      "source": "1228cd09-19d4-4017-a2ec-6875a983ad6c",
+      "target": "d2793e7c-1938-44ad-9041-099aefff480a",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "dotfiles uses nix",
+      "source_doc": "project_dotfiles"
+    },
+    {
+      "id": "9ca1346a-314d-4d09-87c4-208a1dc7d709",
+      "source": "1228cd09-19d4-4017-a2ec-6875a983ad6c",
+      "target": "90c646a6-a0c0-4ed9-a2f7-301e867e76de",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "dotfiles belongs to infrastructure domain",
+      "source_doc": "project_dotfiles"
+    },
+    {
+      "id": "3af87eae-fdd9-4718-a0fc-cd78604e7c04",
+      "source": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "godmode uses rust",
+      "source_doc": "project_godmode"
+    },
+    {
+      "id": "60899de0-83b5-47f1-98b5-06b8fc0cfa00",
+      "source": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "target": "49061975-1cc9-4dc4-a722-f7aa2559df20",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "godmode belongs to plugins domain",
+      "source_doc": "project_godmode"
+    },
+    {
+      "id": "b45d3cd3-b8bf-4c33-b836-4ec22a06604e",
+      "source": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "godmode belongs to agents domain",
+      "source_doc": "project_godmode"
+    },
+    {
+      "id": "6cc8c2f9-4c4b-423f-b1a6-2ac18e259239",
+      "source": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "target": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "supporting_text": "godmode depends_on crux",
+      "source_doc": "project_godmode"
+    },
+    {
+      "id": "0ae8d465-5651-47f8-b61e-f502308779e6",
+      "source": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "target": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "supporting_text": "godmode depends_on slashcrux",
+      "source_doc": "project_godmode"
+    },
+    {
+      "id": "896ada6a-bfea-4507-ade9-49415767be7c",
+      "source": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "target": "5d690373-b091-408b-9399-d2c984d67d60",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "godmode sibling_of atelier",
+      "source_doc": "project_godmode"
+    },
+    {
+      "id": "66810938-88d3-4b49-b196-95a3a4b83cb8",
+      "source": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "target": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "godmode sibling_of orca-strait",
+      "source_doc": "project_godmode"
+    },
+    {
+      "id": "95cd87b9-6c31-48c5-a984-6da095a9a2f6",
+      "source": "447a8c5f-263e-42e6-a5d1-fc3af086a19d",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "harvestrs uses rust",
+      "source_doc": "project_harvestrs"
+    },
+    {
+      "id": "1e588740-d54b-4da0-973d-978e8996892b",
+      "source": "447a8c5f-263e-42e6-a5d1-fc3af086a19d",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "harvestrs belongs to developer-tools domain",
+      "source_doc": "project_harvestrs"
+    },
+    {
+      "id": "730c7bc8-13cb-489c-a791-1462063c08e8",
+      "source": "447a8c5f-263e-42e6-a5d1-fc3af086a19d",
+      "target": "b0a7bcf6-8a77-44d5-af1b-b69f8a855292",
+      "type": "feeds_into",
+      "confidence": 0.9,
+      "supporting_text": "harvestrs feeds_into kgx",
+      "source_doc": "project_harvestrs"
+    },
+    {
+      "id": "1c3bcd4b-3a01-4973-af34-c546b7ef17c7",
+      "source": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "hj uses rust",
+      "source_doc": "project_hj"
+    },
+    {
+      "id": "31ce6aea-0e6a-414f-b901-daa240dcfa7c",
+      "source": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "target": "3085e6c9-16c1-4177-86b0-9fc72465035c",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "hj belongs to handoff domain",
+      "source_doc": "project_hj"
+    },
+    {
+      "id": "b4c23988-ba9f-4e0f-8b8c-0068f49ff420",
+      "source": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "target": "4f6f725b-b0eb-4287-bef8-d597bc456091",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "hj belongs to state-management domain",
+      "source_doc": "project_hj"
+    },
+    {
+      "id": "cb36c6b0-6ff5-4852-92d2-4929322dc79b",
+      "source": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "target": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "hj adjacent_to doob",
+      "source_doc": "project_hj"
+    },
+    {
+      "id": "88f922e4-3537-4253-a44a-f24ae6bc6b09",
+      "source": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "target": "2ae42ac8-5d77-4284-ba72-7641674f2f5d",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "hj adjacent_to warpx",
+      "source_doc": "project_hj"
+    },
+    {
+      "id": "9a9f618c-cb23-48bb-990a-2aa4eb7be9a0",
+      "source": "0077940e-b4f6-4cd2-b4e9-99e1d4691d97",
+      "target": "f1100577-aa0e-4cee-bc40-ffef90371a0e",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "hj adjacent_to valerie",
+      "source_doc": "project_hj"
+    },
+    {
+      "id": "9fa22b27-90b6-4277-b983-93296a3034ed",
+      "source": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "hooklings uses rust",
+      "source_doc": "project_hooklings"
+    },
+    {
+      "id": "be01638f-b81c-476c-bce9-d8cd155827a4",
+      "source": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "hooklings belongs to developer-tools domain",
+      "source_doc": "project_hooklings"
+    },
+    {
+      "id": "a3f40b59-6fc4-4e4c-bda3-95f168bcfdc1",
+      "source": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "target": "e39bfc36-0797-40ff-ade4-bbbd9eaad072",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "hooklings belongs to hooks domain",
+      "source_doc": "project_hooklings"
+    },
+    {
+      "id": "e0238020-225f-4288-a787-ca006b97f15b",
+      "source": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "target": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "hooklings adjacent_to coursers",
+      "source_doc": "project_hooklings"
+    },
+    {
+      "id": "79d82ff6-53c1-4304-aa49-7d08317cc689",
+      "source": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "target": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "hooklings adjacent_to prefixe",
+      "source_doc": "project_hooklings"
+    },
+    {
+      "id": "8ad2f003-48ce-4869-a7c6-3303791d5c17",
+      "source": "b0a7bcf6-8a77-44d5-af1b-b69f8a855292",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "kgx uses rust",
+      "source_doc": "project_kgx"
+    },
+    {
+      "id": "a8091385-ba06-4804-ae57-f0ce1db60883",
+      "source": "b0a7bcf6-8a77-44d5-af1b-b69f8a855292",
+      "target": "a40a474b-2bee-4932-ba29-7df9a7bb7ff6",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "kgx belongs to knowledge-graphs domain",
+      "source_doc": "project_kgx"
+    },
+    {
+      "id": "9532a428-f8ab-4493-93c4-a71015f68d34",
+      "source": "b0a7bcf6-8a77-44d5-af1b-b69f8a855292",
+      "target": "b6afa689-b9d4-4c54-8d5e-8474256e0d39",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "kgx belongs to cli domain",
+      "source_doc": "project_kgx"
+    },
+    {
+      "id": "ec393a15-8464-4280-afd2-172674fa1f56",
+      "source": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "langchainx uses rust",
+      "source_doc": "project_langchainx"
+    },
+    {
+      "id": "4b0ef003-f1a1-4651-9458-179c7d2c22aa",
+      "source": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "target": "b74d6508-8aba-4cff-b537-487815342e76",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "langchainx belongs to llm domain",
+      "source_doc": "project_langchainx"
+    },
+    {
+      "id": "5ef564d4-afb3-4e3d-a2e1-ff5be6b81ad7",
+      "source": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "langchainx belongs to agents domain",
+      "source_doc": "project_langchainx"
+    },
+    {
+      "id": "9fe3fa06-b821-4b38-bd16-ac43eaba6961",
+      "source": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "target": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "langchainx sibling_of looprs",
+      "source_doc": "project_langchainx"
+    },
+    {
+      "id": "c5ada645-64d8-4c70-9254-a851b29df4b7",
+      "source": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "target": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "langchainx sibling_of braid",
+      "source_doc": "project_langchainx"
+    },
+    {
+      "id": "a1769161-3016-41a1-98ba-a15b23f9b85d",
+      "source": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "looprs uses rust",
+      "source_doc": "project_looprs"
+    },
+    {
+      "id": "e1596415-66eb-4064-a68b-7648e8d26a6b",
+      "source": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "looprs belongs to ai domain",
+      "source_doc": "project_looprs"
+    },
+    {
+      "id": "849b40d9-a68e-4597-8660-aeeeab78ddda",
+      "source": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "looprs belongs to agents domain",
+      "source_doc": "project_looprs"
+    },
+    {
+      "id": "da64bfc4-74a4-4c18-b12e-d50cb9156c28",
+      "source": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "target": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "looprs sibling_of braid",
+      "source_doc": "project_looprs"
+    },
+    {
+      "id": "ff661222-ac4c-494b-9c82-79b2161b9073",
+      "source": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "target": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "looprs sibling_of langchainx",
+      "source_doc": "project_looprs"
+    },
+    {
+      "id": "fb8d8aa6-22af-4fcd-9675-e30841ff59be",
+      "source": "0d3fcb52-29e1-47eb-8cf6-99e552fd9c75",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "mcpipe uses rust",
+      "source_doc": "project_mcpipe"
+    },
+    {
+      "id": "ce5d463b-b2e8-424a-960e-3ef325cab4b3",
+      "source": "0d3fcb52-29e1-47eb-8cf6-99e552fd9c75",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "mcpipe belongs to ai domain",
+      "source_doc": "project_mcpipe"
+    },
+    {
+      "id": "b903ce6a-dcd1-4b2f-9059-d0c769dc0572",
+      "source": "0d3fcb52-29e1-47eb-8cf6-99e552fd9c75",
+      "target": "cdbb6cd9-2c16-4529-b871-9b6948247be1",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "mcpipe belongs to mcp domain",
+      "source_doc": "project_mcpipe"
+    },
+    {
+      "id": "be12eb7b-4ece-4c3f-a400-7021d10064fc",
+      "source": "0d3fcb52-29e1-47eb-8cf6-99e552fd9c75",
+      "target": "a275881c-6daf-4d5a-83eb-4fdf8738752b",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "mcpipe complements rslm",
+      "source_doc": "project_mcpipe"
+    },
+    {
+      "id": "f906e971-e807-46e5-a3ec-f50d34d55c75",
+      "source": "582968b1-b9ff-4456-a442-0ad202c11c68",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "minibox uses rust",
+      "source_doc": "project_minibox"
+    },
+    {
+      "id": "aaf1a2d9-68ba-4597-ac51-9031cd251245",
+      "source": "582968b1-b9ff-4456-a442-0ad202c11c68",
+      "target": "5ce7d52e-bb82-4498-a38b-abd452e8d178",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "minibox belongs to containers domain",
+      "source_doc": "project_minibox"
+    },
+    {
+      "id": "6d7ce209-ccac-4bc9-9857-3d2d2b80bd95",
+      "source": "582968b1-b9ff-4456-a442-0ad202c11c68",
+      "target": "d25b1eca-21de-4104-95b7-e351ffc4052e",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "minibox belongs to runtime domain",
+      "source_doc": "project_minibox"
+    },
+    {
+      "id": "5150e0f6-3afb-4bc3-9720-42973b8bcc25",
+      "source": "582968b1-b9ff-4456-a442-0ad202c11c68",
+      "target": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "supporting_text": "minibox depends_on crux",
+      "source_doc": "project_minibox"
+    },
+    {
+      "id": "b1833d26-2486-4221-ac81-ee03126df8b3",
+      "source": "e6c260f5-5af8-4d89-a1a1-9daca0bba666",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "mlrs uses rust",
+      "source_doc": "project_mlrs"
+    },
+    {
+      "id": "c75659c4-4628-4f21-af52-a6a16a05403f",
+      "source": "e6c260f5-5af8-4d89-a1a1-9daca0bba666",
+      "target": "a77fe602-6cbe-4ee4-96ec-7311cf2f699c",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "mlrs belongs to ml domain",
+      "source_doc": "project_mlrs"
+    },
+    {
+      "id": "967bbe42-6ad3-4307-9273-cb52db3c16be",
+      "source": "ec4e9b7b-51bc-4ff5-9e09-a961cb30cceb",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "notfiles uses rust",
+      "source_doc": "project_notfiles"
+    },
+    {
+      "id": "11acd452-d7f3-46bd-b5a9-a5695539796f",
+      "source": "ec4e9b7b-51bc-4ff5-9e09-a961cb30cceb",
+      "target": "90c646a6-a0c0-4ed9-a2f7-301e867e76de",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "notfiles belongs to infrastructure domain",
+      "source_doc": "project_notfiles"
+    },
+    {
+      "id": "e8b1b367-9313-4f28-8d9f-d4008548ebd3",
+      "source": "ec4e9b7b-51bc-4ff5-9e09-a961cb30cceb",
+      "target": "1228cd09-19d4-4017-a2ec-6875a983ad6c",
+      "type": "replaces",
+      "confidence": 0.9,
+      "supporting_text": "notfiles replaces dotfiles",
+      "source_doc": "project_notfiles"
+    },
+    {
+      "id": "da1f5b7b-8014-45ab-81c6-9f2203ece7f7",
+      "source": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "obfsck uses rust",
+      "source_doc": "project_obfsck"
+    },
+    {
+      "id": "9c6924db-b9bf-4338-b1b8-068fe250225e",
+      "source": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
+      "target": "5d83516d-82e3-4468-afa8-50638295def3",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "obfsck belongs to security domain",
+      "source_doc": "project_obfsck"
+    },
+    {
+      "id": "b526c89e-e7a1-4738-8d81-34dfd531ad8b",
+      "source": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
+      "target": "8fd98f2a-c2ea-4a90-9954-5987bc1ae18c",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "obfsck belongs to scanning domain",
+      "source_doc": "project_obfsck"
+    },
+    {
+      "id": "b0afb71f-5c8b-4563-b35f-3332fdd4a781",
+      "source": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
+      "target": "d4dd82c1-58d8-4850-918f-ee1a493d32f7",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "obfsck complements agentlint",
+      "source_doc": "project_obfsck"
+    },
+    {
+      "id": "aba27677-16d8-4b45-aa76-e8b5d5368ccc",
+      "source": "ca266bcd-5f8f-4dad-8e06-6f12b7d01c75",
+      "target": "c3e4c2bd-3866-4a75-8099-fba69eaa13fe",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "obfsck complements sanctum",
+      "source_doc": "project_obfsck"
+    },
+    {
+      "id": "7e50ef4c-a2e0-4ede-91c2-54df1efa337a",
+      "source": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "target": "c7ad56e7-b831-4740-98b7-ff8b89e69767",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "orca-strait uses shell",
+      "source_doc": "project_orca-strait"
+    },
+    {
+      "id": "c6e202e5-20ee-4296-87f5-acb41cfab226",
+      "source": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "orca-strait belongs to developer-tools domain",
+      "source_doc": "project_orca-strait"
+    },
+    {
+      "id": "e918f71d-2e61-40f1-b78b-1293c676e967",
+      "source": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "target": "d47be350-32bb-4ef3-b86c-188d60eb0376",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "orca-strait sibling_of godmode",
+      "source_doc": "project_orca-strait"
+    },
+    {
+      "id": "bd7fbf23-37e6-4637-bc31-9b3078125a1e",
+      "source": "4a0e70dd-ddb9-4ab4-b80a-0d7928bf5918",
+      "target": "5d690373-b091-408b-9399-d2c984d67d60",
+      "type": "sibling_of",
+      "confidence": 0.9,
+      "supporting_text": "orca-strait sibling_of atelier",
+      "source_doc": "project_orca-strait"
+    },
+    {
+      "id": "5bb09d33-c49e-43b6-b833-e3e4b9e3c7f1",
+      "source": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "praxis uses rust",
+      "source_doc": "project_praxis"
+    },
+    {
+      "id": "ead503ce-b43a-45cd-891b-a87d3446f890",
+      "source": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "target": "22470f0b-d8ac-49a0-8059-c984734a1c63",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "praxis belongs to benchmarking domain",
+      "source_doc": "project_praxis"
+    },
+    {
+      "id": "628d2fe3-5b1e-4001-8d19-ff5f7222a621",
+      "source": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "praxis belongs to agents domain",
+      "source_doc": "project_praxis"
+    },
+    {
+      "id": "aeccfd58-106e-4d48-9051-a1320cec9df3",
+      "source": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "target": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "supporting_text": "praxis depends_on crux",
+      "source_doc": "project_praxis"
+    },
+    {
+      "id": "85296384-de43-4e8a-a38a-e67db27cd182",
+      "source": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "target": "7130c1a0-1598-46f8-b409-b2e394239d74",
+      "type": "observes",
+      "confidence": 0.9,
+      "supporting_text": "praxis observes looprs",
+      "source_doc": "project_praxis"
+    },
+    {
+      "id": "c47e998c-c63a-42a4-bc91-27a7eea988cd",
+      "source": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "target": "828c9f4f-2301-4f16-b35a-0814b6de9742",
+      "type": "observes",
+      "confidence": 0.9,
+      "supporting_text": "praxis observes braid",
+      "source_doc": "project_praxis"
+    },
+    {
+      "id": "9ab344de-5452-4b18-8fb1-8bdeaf93030e",
+      "source": "f611d6a3-0e77-407b-94ce-5054c32db861",
+      "target": "d94781fd-5251-46d6-b828-e4013e51812c",
+      "type": "observes",
+      "confidence": 0.9,
+      "supporting_text": "praxis observes langchainx",
+      "source_doc": "project_praxis"
+    },
+    {
+      "id": "f41f500e-715e-4268-86a5-0a674ef163c3",
+      "source": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "prefixe uses rust",
+      "source_doc": "project_prefixe"
+    },
+    {
+      "id": "8fbbd31d-b24e-4672-83ad-50d5779d2b6d",
+      "source": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "target": "b6afa689-b9d4-4c54-8d5e-8474256e0d39",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "prefixe belongs to cli domain",
+      "source_doc": "project_prefixe"
+    },
+    {
+      "id": "37cb58ba-e17b-40d3-960f-7c40f8a5fe2a",
+      "source": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "target": "2072814d-031d-42ec-b7d4-f1002b42b7d7",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "prefixe belongs to resolution domain",
+      "source_doc": "project_prefixe"
+    },
+    {
+      "id": "d960defa-c843-446d-a135-81631d798da5",
+      "source": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "target": "3a876ee9-6633-4299-b4de-d0c7aabbf206",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "prefixe adjacent_to coursers",
+      "source_doc": "project_prefixe"
+    },
+    {
+      "id": "047ffa5d-0171-4b4d-8bb9-84eaa1524cde",
+      "source": "a27e426d-33fb-45f7-b391-4812925fcd1e",
+      "target": "47e21ca8-7660-4db5-90c8-e6d2d0cec44a",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "prefixe adjacent_to hooklings",
+      "source_doc": "project_prefixe"
+    },
+    {
+      "id": "f0bdf1a2-a799-49cb-bcd9-f15831813e3f",
+      "source": "3d6c406b-53fe-4bcf-9d49-ca0112e3a4e2",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "propkit uses rust",
+      "source_doc": "project_propkit"
+    },
+    {
+      "id": "a1e8fd5e-49a8-4104-aa6e-99e8f88a7027",
+      "source": "3d6c406b-53fe-4bcf-9d49-ca0112e3a4e2",
+      "target": "95bda8f9-4e01-45be-81d3-140ddb3029fc",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "propkit belongs to testing domain",
+      "source_doc": "project_propkit"
+    },
+    {
+      "id": "c2f24365-5045-4b75-aab6-6fdf28e9546b",
+      "source": "3d6c406b-53fe-4bcf-9d49-ca0112e3a4e2",
+      "target": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "propkit complements sandbox",
+      "source_doc": "project_propkit"
+    },
+    {
+      "id": "6627dad3-d6e0-44ef-8fa2-9fb6dd719e8a",
+      "source": "a275881c-6daf-4d5a-83eb-4fdf8738752b",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "rslm uses rust",
+      "source_doc": "project_rslm"
+    },
+    {
+      "id": "95ecba9b-84cf-4881-ba6d-340cc7e6e0bb",
+      "source": "a275881c-6daf-4d5a-83eb-4fdf8738752b",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "rslm belongs to ai domain",
+      "source_doc": "project_rslm"
+    },
+    {
+      "id": "80cd41be-a5e1-46cc-9923-a09b73e38628",
+      "source": "a275881c-6daf-4d5a-83eb-4fdf8738752b",
+      "target": "b74d6508-8aba-4cff-b537-487815342e76",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "rslm belongs to llm domain",
+      "source_doc": "project_rslm"
+    },
+    {
+      "id": "d432706e-082b-44b5-b655-5dbbc3bd1ec6",
+      "source": "2f652551-a8e3-47df-8d36-185bc4dc09dc",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "rx uses rust",
+      "source_doc": "project_rx"
+    },
+    {
+      "id": "5290e780-8c51-46d9-85e1-b40e85ebad56",
+      "source": "2f652551-a8e3-47df-8d36-185bc4dc09dc",
+      "target": "717c07d0-63ee-4471-8279-3c953d11f56b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "rx belongs to scripting domain",
+      "source_doc": "project_rx"
+    },
+    {
+      "id": "6b77ac9e-054b-4fcf-bc94-1f16a43866fc",
+      "source": "2f652551-a8e3-47df-8d36-185bc4dc09dc",
+      "target": "d25b1eca-21de-4104-95b7-e351ffc4052e",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "rx belongs to runtime domain",
+      "source_doc": "project_rx"
+    },
+    {
+      "id": "91bad63b-c395-430a-8dec-079a6bc4419d",
+      "source": "c3e4c2bd-3866-4a75-8099-fba69eaa13fe",
+      "target": "0bbc8e16-c64f-4f39-b666-85ea2b0bcde0",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "sanctum uses go",
+      "source_doc": "project_sanctum"
+    },
+    {
+      "id": "e410f0f8-2985-4f1f-876b-be014937fba6",
+      "source": "c3e4c2bd-3866-4a75-8099-fba69eaa13fe",
+      "target": "5d83516d-82e3-4468-afa8-50638295def3",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "sanctum belongs to security domain",
+      "source_doc": "project_sanctum"
+    },
+    {
+      "id": "75a3c328-383c-4272-9692-74e9471312a0",
+      "source": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "sandbox uses rust",
+      "source_doc": "project_sandbox"
+    },
+    {
+      "id": "4b2d7ece-5616-42ff-8ee9-4179657dc358",
+      "source": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
+      "target": "117a7dcd-98b4-4e9f-b4ce-8dfff0bc599e",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "sandbox belongs to execution domain",
+      "source_doc": "project_sandbox"
+    },
+    {
+      "id": "141381c6-26ca-4300-ac1b-53be9bbc9343",
+      "source": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
+      "target": "95bda8f9-4e01-45be-81d3-140ddb3029fc",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "sandbox belongs to testing domain",
+      "source_doc": "project_sandbox"
+    },
+    {
+      "id": "ef3ac1cc-ce0e-4184-b89e-ee019f9f2719",
+      "source": "524cb502-4d6e-46b7-853e-9909f6e4cd3e",
+      "target": "582968b1-b9ff-4456-a442-0ad202c11c68",
+      "type": "adjacent_to",
+      "confidence": 0.9,
+      "supporting_text": "sandbox adjacent_to minibox",
+      "source_doc": "project_sandbox"
+    },
+    {
+      "id": "e77b6efc-9cbd-4c6b-9974-8c6f83859a91",
+      "source": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "slashcrux uses rust",
+      "source_doc": "project_slashcrux"
+    },
+    {
+      "id": "c7bd1910-0287-45c2-8cf3-5d03850c9356",
+      "source": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "slashcrux belongs to ai domain",
+      "source_doc": "project_slashcrux"
+    },
+    {
+      "id": "c74b03bb-4e10-4349-ba7f-a39d764e8440",
+      "source": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "slashcrux belongs to agents domain",
+      "source_doc": "project_slashcrux"
+    },
+    {
+      "id": "ef813992-fbeb-49d7-8e7a-141fb236f4b6",
+      "source": "73261c76-f067-46a0-bd1e-0e75b9459ecc",
+      "target": "2ac3fdc0-24b6-4d70-91d6-9776a6312c29",
+      "type": "depends_on",
+      "confidence": 0.9,
+      "supporting_text": "slashcrux depends_on crux",
+      "source_doc": "project_slashcrux"
+    },
+    {
+      "id": "a04a392a-f237-4bde-a076-a662bf0f1a96",
+      "source": "619f9aa1-6183-4469-8504-793e729de96b",
+      "target": "5eb12d52-59dd-4da6-b2e5-c7eab2bb88d3",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "steve uses python",
+      "source_doc": "project_steve"
+    },
+    {
+      "id": "ab7659f4-7c6f-4ce5-b9cc-e2f325a958a2",
+      "source": "619f9aa1-6183-4469-8504-793e729de96b",
+      "target": "6cf16057-0b5d-4138-ac02-897da0361b6b",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "steve belongs to ai domain",
+      "source_doc": "project_steve"
+    },
+    {
+      "id": "855d963c-593b-4eec-8a14-f33069e6fd0a",
+      "source": "619f9aa1-6183-4469-8504-793e729de96b",
+      "target": "661c8b7b-885c-4c39-9323-9d35d0c70444",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "steve belongs to agents domain",
+      "source_doc": "project_steve"
+    },
+    {
+      "id": "fdcf2d27-47b9-421f-b015-25e0f94386a0",
+      "source": "f1100577-aa0e-4cee-bc40-ffef90371a0e",
+      "target": "c7ad56e7-b831-4740-98b7-ff8b89e69767",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "valerie uses shell",
+      "source_doc": "project_valerie"
+    },
+    {
+      "id": "ff13fb73-a1db-4a76-8776-54b2df746ac2",
+      "source": "f1100577-aa0e-4cee-bc40-ffef90371a0e",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "valerie belongs to developer-tools domain",
+      "source_doc": "project_valerie"
+    },
+    {
+      "id": "5063ea9e-00c0-43eb-82e4-00fb11dee5d8",
+      "source": "f1100577-aa0e-4cee-bc40-ffef90371a0e",
+      "target": "2ae42ac8-5d77-4284-ba72-7641674f2f5d",
+      "type": "complements",
+      "confidence": 0.9,
+      "supporting_text": "valerie complements warpx",
+      "source_doc": "project_valerie"
+    },
+    {
+      "id": "51ec5d52-270f-442f-8ba8-2ed8731d005f",
+      "source": "2ae42ac8-5d77-4284-ba72-7641674f2f5d",
+      "target": "ca50e485-48d1-47dc-81c1-1f4d5dfb487e",
+      "type": "uses_language",
+      "confidence": 1.0,
+      "supporting_text": "warpx uses rust",
+      "source_doc": "project_warpx"
+    },
+    {
+      "id": "ad82bfc2-2895-4c1a-85e7-34295e6c44b5",
+      "source": "2ae42ac8-5d77-4284-ba72-7641674f2f5d",
+      "target": "9e30750b-97c3-4bfe-aea2-2a3761175887",
+      "type": "belongs_to_domain",
+      "confidence": 1.0,
+      "supporting_text": "warpx belongs to developer-tools domain",
+      "source_doc": "project_warpx"
+    },
+    {
+      "id": "a3f99111-a6e8-4b32-870a-18b2e7302e2f",
       "source": "2ae42ac8-5d77-4284-ba72-7641674f2f5d",
       "target": "a54f19ae-768a-4e6f-80d1-5fc4f098a5a7",
       "type": "feeds_into",
