@@ -1,0 +1,23 @@
+---
+title: orca-strait
+source_document: project_orca-strait
+tags: [summary, project, shell]
+---
+
+# orca-strait
+
+**Status:** inactive
+**Languages:** shell
+**Domains:** developer-tools
+
+Claude Code plugin.
+
+## Relationships
+
+- [[godmode]] (sibling_of): both are Claude Code plugins
+- [[atelier]] (sibling_of): both are Claude Code plugins
+
+## References
+
+- Repo: https://github.com/89jobrien/orca-strait.git
+- Source note: 02_Projects/PROJECT.orca-strait.md
