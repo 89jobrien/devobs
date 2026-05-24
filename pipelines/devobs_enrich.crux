@@ -1,66 +1,24 @@
 pipeline: devobs_enrich
 # Enrich the knowledge graph with LLM-suggested project relationships.
 #
-# For each project:
-#   1. Read its description and the full project list
-#   2. Use llm::extract to suggest typed relationships
-#   3. Write edges to kgx with confidence scores
-#   4. Generate a wiki summary page
+# 1. Gathers all project metadata
+# 2. Calls Claude API to suggest new relationships
+# 3. Outputs candidates to .ctx/enrich_candidates.json for human review
+# 4. Does NOT auto-ingest — run scripts/apply_enrichments.py after review
 #
-# Requires: ANTHROPIC_API_KEY or OPENAI_API_KEY in environment
+# Requires: ANTHROPIC_API_KEY via op run
 #
 # Run:
 #   crux run pipelines/devobs_enrich.crux
-budget: { calls: 40, tokens: 30000 }
+budget: { calls: 10 }
 
 steps:
-  # Step 1: Gather all project names and descriptions
-  - step: gather_projects
+  - step: suggest_relationships
     handler: shell::capture
     args:
-      cmd: >
-        for f in 02_Projects/PROJECT.*.md; do
-          name=$(basename "$f" .md | sed 's/PROJECT\.//')
-          desc=$(sed -n '/^# /{ n; /^$/n; p; q; }' "$f" | head -1 | sed 's/"/\\"/g')
-          lang=$(sed -n '/^language_stack:/s/.*\[\(.*\)\].*/\1/p' "$f" | tr -d ' ')
-          domains=$(sed -n '/^domain:/s/.*\[\(.*\)\].*/\1/p' "$f" | tr -d ' ')
-          printf '{"name":"%s","desc":"%s","lang":"%s","domains":"%s"}\n' \
-            "$name" "$desc" "$lang" "$domains"
-        done | jq -s '{function:"SuggestRelated",input:{projects:.}}'
+      cmd: "op run -- uv run scripts/enrich_relationships.py > .ctx/enrich_candidates.json"
 
-  # Step 2: LLM extracts relationship suggestions
-  - step: suggest_relations
-    handler: llm::extract
-    args:
-      function: SuggestRelated
-    # Output: { relations: [{ source, target, type, confidence, rationale }] }
-
-  # Step 3: Write edges to kgx graph
-  - step: write_edges
-    handler: shell::capture
-    args:
-      cmd: >
-        echo '{{ steps.suggest_relations.output }}' | jq -c '.relations[]' |
-        while read -r edge; do
-          src=$(echo "$edge" | jq -r '.source')
-          tgt=$(echo "$edge" | jq -r '.target')
-          rel=$(echo "$edge" | jq -r '.type')
-          conf=$(echo "$edge" | jq -r '.confidence')
-          [ "$(echo "$conf >= 0.6" | bc)" = "1" ] &&
-            kgx graph add-edge "$src" "$tgt" --relation-type "$rel"
-        done
-
-  # Step 4: Write wiki summary
-  - step: write_wiki
-    handler: shell::capture
-    args:
-      cmd: >
-        kgx stats | jq -r '"Nodes: \(.nodes), Edges: \(.edges), Docs: \(.documents)"' |
-        kgx wiki write --category summary --title "devobs project graph" \
-          --summary "Auto-generated project relationship graph"
-
-  # Step 5: Final stats
   - step: report
     handler: shell::capture
     args:
-      cmd: "kgx stats"
+      cmd: "python3 -c \"import json; d=json.load(open('.ctx/enrich_candidates.json')); print(f'{len(d)} candidates written to .ctx/enrich_candidates.json')\""

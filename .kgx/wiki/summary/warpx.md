@@ -12,6 +12,10 @@ tags: [summary, project, rust]
 
 Handoff collapse and todo grouping tool.
 
+## Relationships
+
+- [[doob]] (feeds_into): warpx groups todos from handoff context, which could feed into doob's task-tracking and sync workflow.
+
 ## References
 
 - Repo: https://github.com/89jobrien/warpx.git

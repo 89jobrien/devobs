@@ -15,6 +15,7 @@ Secret scanner and redaction CLI
 ## Relationships
 
 - [[agentlint]] (complements): both are scanning/linting tools for code quality
+- [[sanctum]] (complements): obfsck handles secret scanning and redaction, while sanctum provides session security and auth guarding; both address complementary security concerns.
 
 ## References
 

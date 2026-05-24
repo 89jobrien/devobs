@@ -12,6 +12,10 @@ tags: [summary, project, rust]
 
 Property test analyzer, generator, and scaffold.
 
+## Relationships
+
+- [[sandbox]] (complements): propkit generates and analyzes property tests, while sandbox can provide isolated execution and tracing for running those tests safely.
+
 ## References
 
 - Repo: https://github.com/89jobrien/propkit.git

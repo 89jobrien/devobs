@@ -12,6 +12,10 @@ tags: [summary, project, go]
 
 Go dev workflow toolkit — standup, council, timeline.
 
+## Relationships
+
+- [[doob]] (complements): devkit supports standups, councils, and timelines, while doob manages todos and tasks; both support developer workflow coordination.
+
 ## References
 
 - Repo: https://github.com/89jobrien/devkit.git

@@ -1,0 +1,122 @@
+[38;2;236;213;63m⟐ injected env (1) from /Users/joe/dev/.env · dotenvx@1.61.0[39m
+[
+  {
+    "source": "notfiles",
+    "target": "dotfiles",
+    "type": "replaces",
+    "confidence": 0.95,
+    "rationale": "notfiles is explicitly described as a Rust replacement for the dotfiles bootstrap workflow."
+  },
+  {
+    "source": "bazaar",
+    "target": "godmode",
+    "type": "consumes_from",
+    "confidence": 0.82,
+    "rationale": "bazaar is a Claude Code plugin marketplace/showcase, and godmode is a Claude Code plugin that would naturally be listed or showcased there."
+  },
+  {
+    "source": "bazaar",
+    "target": "atelier",
+    "type": "consumes_from",
+    "confidence": 0.8,
+    "rationale": "atelier is a Claude Code plugin, making it a likely source of plugin metadata or examples for bazaar's marketplace/showcase role."
+  },
+  {
+    "source": "bazaar",
+    "target": "orca-strait",
+    "type": "consumes_from",
+    "confidence": 0.78,
+    "rationale": "orca-strait is another Claude Code plugin and fits bazaar's role as a marketplace and showcase for such plugins."
+  },
+  {
+    "source": "harvestrs",
+    "target": "kgx",
+    "type": "feeds_into",
+    "confidence": 0.82,
+    "rationale": "harvestrs harvests data, while kgx manages knowledge graphs with provenance; harvested data would naturally feed a graph knowledge store."
+  },
+  {
+    "source": "bamlish",
+    "target": "rslm",
+    "type": "complements",
+    "confidence": 0.82,
+    "rationale": "bamlish focuses on structured LLM output tooling, while rslm provides Rust LLM integration; structured output is a natural layer on top of LLM integration."
+  },
+  {
+    "source": "mcpipe",
+    "target": "rslm",
+    "type": "complements",
+    "confidence": 0.74,
+    "rationale": "mcpipe provides MCP pipeline functionality, which complements an LLM integration library by enabling model/tool pipeline composition."
+  },
+  {
+    "source": "praxis",
+    "target": "looprs",
+    "type": "observes",
+    "confidence": 0.78,
+    "rationale": "praxis is an agent benchmark harness, and looprs is a core agent framework whose runs could be benchmarked and analyzed."
+  },
+  {
+    "source": "praxis",
+    "target": "braid",
+    "type": "observes",
+    "confidence": 0.76,
+    "rationale": "braid is a multi-agent orchestration platform, making it a natural target for praxis's run-cycle extraction and benchmark observation."
+  },
+  {
+    "source": "praxis",
+    "target": "langchainx",
+    "type": "observes",
+    "confidence": 0.75,
+    "rationale": "langchainx implements chains, tools, and agents, which align well with praxis's role as a benchmark and run-analysis harness."
+  },
+  {
+    "source": "agentlint",
+    "target": "sandbox",
+    "type": "complements",
+    "confidence": 0.72,
+    "rationale": "agentlint statically detects risky AI-agent patterns, while sandbox provides execution tracing and isolation; together they cover preventive and runtime safety."
+  },
+  {
+    "source": "sandbox",
+    "target": "minibox",
+    "type": "adjacent_to",
+    "confidence": 0.82,
+    "rationale": "sandbox focuses on execution tracing and isolation, while minibox is a container runtime; both address controlled execution environments from adjacent layers."
+  },
+  {
+    "source": "propkit",
+    "target": "sandbox",
+    "type": "complements",
+    "confidence": 0.78,
+    "rationale": "propkit generates and analyzes property tests, while sandbox can provide isolated execution and tracing for running those tests safely."
+  },
+  {
+    "source": "valerie",
+    "target": "warpx",
+    "type": "complements",
+    "confidence": 0.8,
+    "rationale": "valerie reconciles handoff state, while warpx collapses handoffs and groups todos; both operate on adjacent parts of the handoff-management workflow."
+  },
+  {
+    "source": "warpx",
+    "target": "doob",
+    "type": "feeds_into",
+    "confidence": 0.73,
+    "rationale": "warpx groups todos from handoff context, which could feed into doob's task-tracking and sync workflow."
+  },
+  {
+    "source": "devkit",
+    "target": "doob",
+    "type": "complements",
+    "confidence": 0.74,
+    "rationale": "devkit supports standups, councils, and timelines, while doob manages todos and tasks; both support developer workflow coordination."
+  },
+  {
+    "source": "obfsck",
+    "target": "sanctum",
+    "type": "complements",
+    "confidence": 0.73,
+    "rationale": "obfsck handles secret scanning and redaction, while sanctum provides session security and auth guarding; both address complementary security concerns."
+  }
+]

@@ -12,6 +12,10 @@ tags: [summary, project, rust]
 
 MCP pipeline tool.
 
+## Relationships
+
+- [[rslm]] (complements): mcpipe provides MCP pipeline functionality, which complements an LLM integration library by enabling model/tool pipeline composition.
+
 ## References
 
 - Repo: https://github.com/89jobrien/mcpipe.git

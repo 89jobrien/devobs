@@ -12,6 +12,10 @@ tags: [summary, project, rust]
 
 Execution tracing, subshell isolation, rustqual refactor
 
+## Relationships
+
+- [[minibox]] (adjacent_to): sandbox focuses on execution tracing and isolation, while minibox is a container runtime; both address controlled execution environments from adjacent layers.
+
 ## References
 
 - Source note: 02_Projects/PROJECT.sandbox.md
