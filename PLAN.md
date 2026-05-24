@@ -2,14 +2,14 @@
 
 ## Status
 
-| Layer          | State   | Numbers                                     |
-| -------------- | ------- | ------------------------------------------- |
-| PROJECT notes  | done    | 36 notes with validated frontmatter         |
-| JSON schemas   | done    | project.schema.json, kgx-ingest.schema.json |
-| Crux pipelines | partial | ingest works, lint/enrich untested          |
-| kgx graph      | seeded  | 71 nodes, 97 edges (language + domain only) |
-| kgx wiki       | empty   | no wiki pages yet                           |
-| GitHub remote  | done    | 89jobrien/devobs                            |
+| Layer          | State    | Numbers                                     |
+| -------------- | -------- | ------------------------------------------- |
+| PROJECT notes  | done     | 36 notes with validated frontmatter         |
+| JSON schemas   | done     | project.schema.json, kgx-ingest.schema.json |
+| Crux pipelines | done     | ingest, lint, enrich all working            |
+| kgx graph      | enriched | 71 nodes, 498 edges                         |
+| kgx wiki       | done     | 36 summaries + 35 topic pages               |
+| GitHub remote  | done     | 89jobrien/devobs                            |
 
 ## Phase 1: Cross-Project Relationships
 

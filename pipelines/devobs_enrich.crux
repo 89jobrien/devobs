@@ -2,11 +2,11 @@ pipeline: devobs_enrich
 # Enrich the knowledge graph with LLM-suggested project relationships.
 #
 # 1. Gathers all project metadata
-# 2. Calls Claude API to suggest new relationships
+# 2. Calls OpenAI gpt-5.5 to suggest new relationships
 # 3. Outputs candidates to .ctx/enrich_candidates.json for human review
 # 4. Does NOT auto-ingest — run scripts/apply_enrichments.py after review
 #
-# Requires: ANTHROPIC_API_KEY via op run
+# Requires: OPENAI_API_KEY via dotenvx (~/dev/.env)
 #
 # Run:
 #   crux run pipelines/devobs_enrich.crux
@@ -16,7 +16,7 @@ steps:
   - step: suggest_relationships
     handler: shell::capture
     args:
-      cmd: "op run -- uv run scripts/enrich_relationships.py > .ctx/enrich_candidates.json"
+      cmd: "dotenvx run -f /Users/joe/dev/.env -- uv run scripts/enrich_relationships.py > .ctx/enrich_candidates.json"
 
   - step: report
     handler: shell::capture
