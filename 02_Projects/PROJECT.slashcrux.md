@@ -7,6 +7,10 @@ repo:
   url: https://github.com/89jobrien/slashcrux.git
   path: ~/dev/slashcrux
 primary_machine: m5-max
+project_relationships:
+  - type: depends_on
+    target: crux
+    notes: "integrates crux DSL with slash"
 tags: [project, rust, agents]
 ---
 

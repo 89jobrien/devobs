@@ -7,6 +7,13 @@ repo:
   url: https://github.com/89jobrien/prefixe.git
   path: ~/dev/prefixe
 primary_machine: m5-max
+project_relationships:
+  - type: adjacent_to
+    target: coursers
+    notes: "prefixe provides resolution logic consumed by coursers"
+  - type: adjacent_to
+    target: hooklings
+    notes: "both are hook-related tools"
 tags: [project, rust]
 ---
 

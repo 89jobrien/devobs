@@ -7,6 +7,10 @@ repo:
   url: https://github.com/89jobrien/praxis.git
   path: ~/dev/praxis
 primary_machine: m5-max
+project_relationships:
+  - type: depends_on
+    target: crux
+    notes: "cruxx-improve crate via path dep (currently broken)"
 tags: [project, rust]
 ---
 
