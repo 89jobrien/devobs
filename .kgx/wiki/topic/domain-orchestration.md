@@ -9,4 +9,4 @@ tags: [topic, domain, orchestration]
 
 ## Active Projects
 
-- **[[braid]]** — Multi-agent orchestration platform.
+- **[[braid]]** -- Multi-agent orchestration platform.

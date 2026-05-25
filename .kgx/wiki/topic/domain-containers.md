@@ -9,4 +9,4 @@ tags: [topic, domain, containers]
 
 ## Active Projects
 
-- **[[minibox]]** — Docker-like container runtime in Rust with hexagonal architecture
+- **[[minibox]]** -- Docker-like container runtime in Rust with hexagonal architecture

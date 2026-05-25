@@ -9,4 +9,4 @@ tags: [topic, domain, resolution]
 
 ## Active Projects
 
-- **[[prefixe]]** — Post-hook probing resolution CLI with confirm/cycle/exhaust
+- **[[prefixe]]** -- Post-hook probing resolution CLI with confirm/cycle/exhaust

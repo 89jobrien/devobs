@@ -9,4 +9,4 @@ tags: [topic, domain, task-management]
 
 ## Active Projects
 
-- **[[doob]]** — Todo and task tracker with sync adapters.
+- **[[doob]]** -- Todo and task tracker with sync adapters.

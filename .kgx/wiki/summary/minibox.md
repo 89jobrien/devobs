@@ -16,6 +16,20 @@ Docker-like container runtime in Rust with hexagonal architecture
 
 - [[crux]] (depends_on): crux-plugin crate via git rev pin
 
+## Relationship Graph
+
+```
+┌─────────┐
+│ minibox │
+└────┬────┘
+     │ depends_on
+     │
+     v
+ ┌──────┐
+ │ crux │
+ └──────┘
+```
+
 ## References
 
 - Repo: git@github.com:89jobrien/minibox.git

@@ -19,6 +19,26 @@ Agent benchmark harness with run-cycle extraction
 - [[braid]] (observes): braid is a multi-agent orchestration platform, making it a natural target for praxis's run-cycle extraction and benchmark observation.
 - [[langchainx]] (observes): langchainx implements chains, tools, and agents, which align well with praxis's role as a benchmark and run-analysis harness.
 
+## Relationship Graph
+
+```
+┌────────┐   observes     ┌───────┐
+│ praxis ├─┬─────────────>│ braid │
+└────────┘ │              └───────┘
+           │
+           │ depends_on   ┌──────┐
+           ├─────────────>│ crux │
+           │              └──────┘
+           │
+           │ observes     ┌────────────┐
+           ├─────────────>│ langchainx │
+           │              └────────────┘
+           │
+           │ observes     ┌────────┐
+           └─────────────>│ looprs │
+                          └────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/praxis.git

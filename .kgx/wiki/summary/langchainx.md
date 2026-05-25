@@ -17,6 +17,18 @@ Rust port of LangChain — tools, chains, agents
 - [[looprs]] (sibling_of): both are Rust agent frameworks
 - [[braid]] (sibling_of): both are Rust agent frameworks
 
+## Relationship Graph
+
+```
+┌────────────┐   sibling_of   ┌───────┐
+│ langchainx ├─┬─────────────>│ braid │
+└────────────┘ │              └───────┘
+               │
+               │ sibling_of   ┌────────┐
+               └─────────────>│ looprs │
+                              └────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/langchainx.git

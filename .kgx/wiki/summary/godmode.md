@@ -19,6 +19,26 @@ Claude Code plugin — skills, agents, task graphs
 - [[atelier]] (sibling_of): both are Claude Code plugins
 - [[orca-strait]] (sibling_of): both are Claude Code plugins
 
+## Relationship Graph
+
+```
+┌─────────┐   sibling_of   ┌─────────┐
+│ godmode ├─┬─────────────>│ atelier │
+└─────────┘ │              └─────────┘
+            │
+            │ depends_on   ┌──────┐
+            ├─────────────>│ crux │
+            │              └──────┘
+            │
+            │ sibling_of   ┌─────────────┐
+            ├─────────────>│ orca-strait │
+            │              └─────────────┘
+            │
+            │ depends_on   ┌───────────┐
+            └─────────────>│ slashcrux │
+                           └───────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/godmode.git

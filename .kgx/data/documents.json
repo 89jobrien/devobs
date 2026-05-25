@@ -1,57 +1,57 @@
 {
   "documents": [
     {
-      "id": "project_rx",
-      "title": "PROJECT.rx",
-      "source": "02_Projects/PROJECT.rx.md",
-      "raw_content": "Script installer and runner CLI with multi-runtime support Status: active. Languages: rust.",
+      "id": "infra_agent_frameworks",
+      "title": "Agent Frameworks",
+      "source": "07_Infrastructure/INFRA.agent-frameworks.md",
+      "raw_content": "Three sibling Rust agent frameworks: braid (multi-agent orchestration), looprs (agent loop primitives), langchainx (LangChain-style chains in Rust). praxis observes all three. Supporting projects: rslm (LLM client abstractions), bamlish (BAML structured output), mcpipe (MCP protocol proxy).",
       "chunks": [
         {
-          "id": "85a2048f-ca91-44f6-bbe5-5137b2304d2a",
-          "doc_id": "project_rx",
-          "text": "Script installer and runner CLI with multi-runtime support Status: active. Languages: rust.",
+          "id": "cb94f209-e843-4204-a0be-44246e845f56",
+          "doc_id": "infra_agent_frameworks",
+          "text": "Three sibling Rust agent frameworks: braid (multi-agent orchestration), looprs (agent loop primitives), langchainx (LangChain-style chains in Rust). praxis observes all three. Supporting projects: rslm (LLM client abstractions), bamlish (BAML structured output), mcpipe (MCP protocol proxy).",
           "offset": 0
         }
       ]
     },
     {
-      "id": "project_notfiles",
-      "title": "PROJECT.notfiles",
-      "source": "02_Projects/PROJECT.notfiles.md",
-      "raw_content": "Rust replacement for dotfiles bootstrap. Status: inactive. Languages: rust.",
+      "id": "infra_agent_runtime_stack",
+      "title": "Agent Runtime Stack",
+      "source": "07_Infrastructure/INFRA.agent-runtime-stack.md",
+      "raw_content": "The agentic infrastructure spans four layers, each built in Rust. Plugins: godmode, atelier, orca-strait, sanctum. Marketplace: bazaar. DSL/Runtime: crux, slashcrux. Execution: minibox, sandbox. godmode and minibox both depend on crux. slashcrux bridges slash with crux. Distributed via bazaar.",
       "chunks": [
         {
-          "id": "0e9465e6-095e-4a3c-a816-0617dc3cdf96",
-          "doc_id": "project_notfiles",
-          "text": "Rust replacement for dotfiles bootstrap. Status: inactive. Languages: rust.",
+          "id": "dc211a58-5edc-4c53-af62-b04447038396",
+          "doc_id": "infra_agent_runtime_stack",
+          "text": "The agentic infrastructure spans four layers, each built in Rust. Plugins: godmode, atelier, orca-strait, sanctum. Marketplace: bazaar. DSL/Runtime: crux, slashcrux. Execution: minibox, sandbox. godmode and minibox both depend on crux. slashcrux bridges slash with crux. Distributed via bazaar.",
           "offset": 0
         }
       ]
     },
     {
-      "id": "project_mcpipe",
-      "title": "PROJECT.mcpipe",
-      "source": "02_Projects/PROJECT.mcpipe.md",
-      "raw_content": "MCP pipeline tool. Status: active. Languages: rust.",
+      "id": "infra_hook_systems",
+      "title": "Hook Systems",
+      "source": "07_Infrastructure/INFRA.hook-systems.md",
+      "raw_content": "Pre-commit, runtime, and agent hook infrastructure. coursers depends on prefixe for prefix resolution. hooklings provides a complementary hook framework. obfsck and agentlint run as lint steps in CI and pre-commit pipelines.",
       "chunks": [
         {
-          "id": "bb941fee-de63-427d-a359-c0ee0ff79859",
-          "doc_id": "project_mcpipe",
-          "text": "MCP pipeline tool. Status: active. Languages: rust.",
+          "id": "1fe81f11-5674-4c48-b33e-6d3706c2e18a",
+          "doc_id": "infra_hook_systems",
+          "text": "Pre-commit, runtime, and agent hook infrastructure. coursers depends on prefixe for prefix resolution. hooklings provides a complementary hook framework. obfsck and agentlint run as lint steps in CI and pre-commit pipelines.",
           "offset": 0
         }
       ]
     },
     {
-      "id": "project_kgx",
-      "title": "PROJECT.kgx",
-      "source": "02_Projects/PROJECT.kgx.md",
-      "raw_content": "Knowledge graph CLI with wiki, BFS traversal, and provenance Status: active. Languages: rust.",
+      "id": "infra_state_management",
+      "title": "State Management",
+      "source": "07_Infrastructure/INFRA.state-management.md",
+      "raw_content": "Session state, task tracking, and handoff continuity across agent sessions. hj is the central node: consumes task data from doob, receives collapsed state from warpx, valerie reconciles results. devkit complements doob.",
       "chunks": [
         {
-          "id": "b9e1a258-a181-4307-9c1c-88928babc29e",
-          "doc_id": "project_kgx",
-          "text": "Knowledge graph CLI with wiki, BFS traversal, and provenance Status: active. Languages: rust.",
+          "id": "6442dd47-0f23-4d77-9a11-203f9a861c08",
+          "doc_id": "infra_state_management",
+          "text": "Session state, task tracking, and handoff continuity across agent sessions. hj is the central node: consumes task data from doob, receives collapsed state from warpx, valerie reconciles results. devkit complements doob.",
           "offset": 0
         }
       ]
@@ -63,7 +63,7 @@
       "raw_content": "GitHub profile page with live stats. Status: active. Languages: shell.",
       "chunks": [
         {
-          "id": "e47c32b4-6d58-4070-aaa6-6b8aba2df052",
+          "id": "50791142-0aa3-4786-92c5-66b1bcdf49e6",
           "doc_id": "project_89jobrien.github.io",
           "text": "GitHub profile page with live stats. Status: active. Languages: shell.",
           "offset": 0
@@ -77,7 +77,7 @@
       "raw_content": "Linter for AI agent patterns — sshpass, sleep, frontmatter heuristics Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "462f71f4-84e9-43a0-9815-fefe361b68a5",
+          "id": "200fd128-d3bc-40a8-a7a7-6530de523087",
           "doc_id": "project_agentlint",
           "text": "Linter for AI agent patterns — sshpass, sleep, frontmatter heuristics Status: active. Languages: rust.",
           "offset": 0
@@ -85,113 +85,43 @@
       ]
     },
     {
-      "id": "project_obfsck",
-      "title": "PROJECT.obfsck",
-      "source": "02_Projects/PROJECT.obfsck.md",
-      "raw_content": "Secret scanner and redaction CLI Status: active. Languages: rust.",
+      "id": "project_atelier",
+      "title": "PROJECT.atelier",
+      "source": "02_Projects/PROJECT.atelier.md",
+      "raw_content": "Claude Code plugin — skills, agents, forge/sentinel/herald. Status: active. Languages: shell.",
       "chunks": [
         {
-          "id": "08c8ede6-7813-4382-a8d5-ea18189b5cc4",
-          "doc_id": "project_obfsck",
-          "text": "Secret scanner and redaction CLI Status: active. Languages: rust.",
+          "id": "981a1cf2-ff71-4c7b-b632-61f759796d32",
+          "doc_id": "project_atelier",
+          "text": "Claude Code plugin — skills, agents, forge/sentinel/herald. Status: active. Languages: shell.",
           "offset": 0
         }
       ]
     },
     {
-      "id": "project_warpx",
-      "title": "PROJECT.warpx",
-      "source": "02_Projects/PROJECT.warpx.md",
-      "raw_content": "Handoff collapse and todo grouping tool. Status: active. Languages: rust.",
+      "id": "project_bamlish",
+      "title": "PROJECT.bamlish",
+      "source": "02_Projects/PROJECT.bamlish.md",
+      "raw_content": "BAML-related Rust tooling for structured LLM output. Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "1a15eed7-0a35-4006-a3c9-ca2fc2b54716",
-          "doc_id": "project_warpx",
-          "text": "Handoff collapse and todo grouping tool. Status: active. Languages: rust.",
+          "id": "13f97de0-4bc5-4022-a8b6-54f8583cd64f",
+          "doc_id": "project_bamlish",
+          "text": "BAML-related Rust tooling for structured LLM output. Status: active. Languages: rust.",
           "offset": 0
         }
       ]
     },
     {
-      "id": "project_propkit",
-      "title": "PROJECT.propkit",
-      "source": "02_Projects/PROJECT.propkit.md",
-      "raw_content": "Property test analyzer, generator, and scaffold. Status: active. Languages: rust.",
+      "id": "project_bazaar",
+      "title": "PROJECT.bazaar",
+      "source": "02_Projects/PROJECT.bazaar.md",
+      "raw_content": "Claude Code plugin marketplace and showcase Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "a78fb7ef-e93b-4211-bc45-19dc7f0804e6",
-          "doc_id": "project_propkit",
-          "text": "Property test analyzer, generator, and scaffold. Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_devkit",
-      "title": "PROJECT.devkit",
-      "source": "02_Projects/PROJECT.devkit.md",
-      "raw_content": "Go dev workflow toolkit — standup, council, timeline. Status: active. Languages: go.",
-      "chunks": [
-        {
-          "id": "976655f5-c6fe-4870-a4a5-44338e275610",
-          "doc_id": "project_devkit",
-          "text": "Go dev workflow toolkit — standup, council, timeline. Status: active. Languages: go.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_doob",
-      "title": "PROJECT.doob",
-      "source": "02_Projects/PROJECT.doob.md",
-      "raw_content": "Todo and task tracker with sync adapters. Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "af61a1b2-cab1-462b-8ca8-aab64854b44a",
-          "doc_id": "project_doob",
-          "text": "Todo and task tracker with sync adapters. Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_sanctum",
-      "title": "PROJECT.sanctum",
-      "source": "02_Projects/PROJECT.sanctum.md",
-      "raw_content": "Session security and auth guard. Status: inactive. Languages: go.",
-      "chunks": [
-        {
-          "id": "ccffb32f-15e6-4708-8b30-407687f79d3d",
-          "doc_id": "project_sanctum",
-          "text": "Session security and auth guard. Status: inactive. Languages: go.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_godmode",
-      "title": "PROJECT.godmode",
-      "source": "02_Projects/PROJECT.godmode.md",
-      "raw_content": "Claude Code plugin — skills, agents, task graphs Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "bf6fb7b1-cb2b-4a0e-9e08-5aaeaca5da03",
-          "doc_id": "project_godmode",
-          "text": "Claude Code plugin — skills, agents, task graphs Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_coursers",
-      "title": "PROJECT.coursers",
-      "source": "02_Projects/PROJECT.coursers.md",
-      "raw_content": "Claude Code hook runner — pre/post tool-use guards Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "e5e204d7-1a01-4d93-b81f-508db7cf5144",
-          "doc_id": "project_coursers",
-          "text": "Claude Code hook runner — pre/post tool-use guards Status: active. Languages: rust.",
+          "id": "bebe119a-ccce-4573-9fcb-1bca93bd6788",
+          "doc_id": "project_bazaar",
+          "text": "Claude Code plugin marketplace and showcase Status: active. Languages: rust.",
           "offset": 0
         }
       ]
@@ -203,7 +133,7 @@
       "raw_content": "Multi-agent orchestration platform. Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "13d5c140-0f7c-4989-9166-2fd45030b45b",
+          "id": "cb5f619d-d45c-454c-bbdc-d2ae4fbbd974",
           "doc_id": "project_braid",
           "text": "Multi-agent orchestration platform. Status: active. Languages: rust.",
           "offset": 0
@@ -217,7 +147,7 @@
       "raw_content": "Codebase classifier with precedence rules. Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "bf35bfc9-e440-4418-87ad-3b9110c97abf",
+          "id": "ad3e3b72-0115-468c-823c-6b47d6f1b2f8",
           "doc_id": "project_cannibalizer",
           "text": "Codebase classifier with precedence rules. Status: active. Languages: rust.",
           "offset": 0
@@ -225,169 +155,15 @@
       ]
     },
     {
-      "id": "project_langchainx",
-      "title": "PROJECT.langchainx",
-      "source": "02_Projects/PROJECT.langchainx.md",
-      "raw_content": "Rust port of LangChain — tools, chains, agents Status: active. Languages: rust.",
+      "id": "project_coursers",
+      "title": "PROJECT.coursers",
+      "source": "02_Projects/PROJECT.coursers.md",
+      "raw_content": "Claude Code hook runner — pre/post tool-use guards Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "1c590fa6-d475-4d65-b7e1-c19d2227501e",
-          "doc_id": "project_langchainx",
-          "text": "Rust port of LangChain — tools, chains, agents Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_hj",
-      "title": "PROJECT.hj",
-      "source": "02_Projects/PROJECT.hj.md",
-      "raw_content": "Handoff CLI — YAML state management for session continuity Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "29d1e6fb-91f6-4c9a-bcef-9daf02f7d223",
-          "doc_id": "project_hj",
-          "text": "Handoff CLI — YAML state management for session continuity Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_praxis",
-      "title": "PROJECT.praxis",
-      "source": "02_Projects/PROJECT.praxis.md",
-      "raw_content": "Agent benchmark harness with run-cycle extraction Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "f63822e8-cb34-40d8-a78d-b3490e2c029d",
-          "doc_id": "project_praxis",
-          "text": "Agent benchmark harness with run-cycle extraction Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_bazaar",
-      "title": "PROJECT.bazaar",
-      "source": "02_Projects/PROJECT.bazaar.md",
-      "raw_content": "Claude Code plugin marketplace and showcase Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "33b52500-0c08-42f1-82b8-76216670c1e5",
-          "doc_id": "project_bazaar",
-          "text": "Claude Code plugin marketplace and showcase Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_atelier",
-      "title": "PROJECT.atelier",
-      "source": "02_Projects/PROJECT.atelier.md",
-      "raw_content": "Claude Code plugin — skills, agents, forge/sentinel/herald. Status: active. Languages: shell.",
-      "chunks": [
-        {
-          "id": "b8993976-3a6b-45de-bace-b1611f91a2c4",
-          "doc_id": "project_atelier",
-          "text": "Claude Code plugin — skills, agents, forge/sentinel/herald. Status: active. Languages: shell.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_dotfiles",
-      "title": "PROJECT.dotfiles",
-      "source": "02_Projects/PROJECT.dotfiles.md",
-      "raw_content": "Machine bootstrap — Nix flakes, GNU Stow, mise. Status: inactive. Languages: nix.",
-      "chunks": [
-        {
-          "id": "db7d4697-9538-4cdf-b0d9-8a90334042ac",
-          "doc_id": "project_dotfiles",
-          "text": "Machine bootstrap — Nix flakes, GNU Stow, mise. Status: inactive. Languages: nix.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_valerie",
-      "title": "PROJECT.valerie",
-      "source": "02_Projects/PROJECT.valerie.md",
-      "raw_content": "Handoff reconciliation tool. Status: inactive. Languages: shell.",
-      "chunks": [
-        {
-          "id": "7aabcc63-a7cf-4072-8b66-09b8262cbd8c",
-          "doc_id": "project_valerie",
-          "text": "Handoff reconciliation tool. Status: inactive. Languages: shell.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_steve",
-      "title": "PROJECT.steve",
-      "source": "02_Projects/PROJECT.steve.md",
-      "raw_content": "Python agent framework with skills and commands. Status: inactive. Languages: python.",
-      "chunks": [
-        {
-          "id": "012f088b-8fa8-4b26-9a8b-66c0c3f579bd",
-          "doc_id": "project_steve",
-          "text": "Python agent framework with skills and commands. Status: inactive. Languages: python.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_bamlish",
-      "title": "PROJECT.bamlish",
-      "source": "02_Projects/PROJECT.bamlish.md",
-      "raw_content": "BAML-related Rust tooling for structured LLM output. Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "932d7912-ad06-49cb-8c9a-8ded5149ef2e",
-          "doc_id": "project_bamlish",
-          "text": "BAML-related Rust tooling for structured LLM output. Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_rslm",
-      "title": "PROJECT.rslm",
-      "source": "02_Projects/PROJECT.rslm.md",
-      "raw_content": "Rust LLM integration library. Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "05a95cf1-daf1-4972-b9b3-22bbf2564928",
-          "doc_id": "project_rslm",
-          "text": "Rust LLM integration library. Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_slashcrux",
-      "title": "PROJECT.slashcrux",
-      "source": "02_Projects/PROJECT.slashcrux.md",
-      "raw_content": "Slash + Crux integration workspace. Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "2861b063-755a-480b-9380-daa83d2ae50e",
-          "doc_id": "project_slashcrux",
-          "text": "Slash + Crux integration workspace. Status: active. Languages: rust.",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "id": "project_minibox",
-      "title": "PROJECT.minibox",
-      "source": "02_Projects/PROJECT.minibox.md",
-      "raw_content": "Docker-like container runtime in Rust with hexagonal architecture Status: active. Languages: rust.",
-      "chunks": [
-        {
-          "id": "b787d021-3849-446d-88c9-5d77f4b703e2",
-          "doc_id": "project_minibox",
-          "text": "Docker-like container runtime in Rust with hexagonal architecture Status: active. Languages: rust.",
+          "id": "c8ab2b37-93bd-4bd6-bf47-54bd62448948",
+          "doc_id": "project_coursers",
+          "text": "Claude Code hook runner — pre/post tool-use guards Status: active. Languages: rust.",
           "offset": 0
         }
       ]
@@ -399,7 +175,7 @@
       "raw_content": "Agentic Rust DSL and runtime trace model Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "01f5a736-f567-482f-9904-c488def5f895",
+          "id": "d2a0af3b-485b-4660-aab3-519073820a5e",
           "doc_id": "project_crux",
           "text": "Agentic Rust DSL and runtime trace model Status: active. Languages: rust.",
           "offset": 0
@@ -407,29 +183,57 @@
       ]
     },
     {
-      "id": "project_sandbox",
-      "title": "PROJECT.sandbox",
-      "source": "02_Projects/PROJECT.sandbox.md",
-      "raw_content": "Execution tracing, subshell isolation, rustqual refactor Status: active. Languages: rust.",
+      "id": "project_devkit",
+      "title": "PROJECT.devkit",
+      "source": "02_Projects/PROJECT.devkit.md",
+      "raw_content": "Go dev workflow toolkit — standup, council, timeline. Status: active. Languages: go.",
       "chunks": [
         {
-          "id": "34663792-2a4a-40f6-bb6d-873cdaa71f51",
-          "doc_id": "project_sandbox",
-          "text": "Execution tracing, subshell isolation, rustqual refactor Status: active. Languages: rust.",
+          "id": "2e5eb3dd-e210-497f-8d0f-6b47160c6c37",
+          "doc_id": "project_devkit",
+          "text": "Go dev workflow toolkit — standup, council, timeline. Status: active. Languages: go.",
           "offset": 0
         }
       ]
     },
     {
-      "id": "project_prefixe",
-      "title": "PROJECT.prefixe",
-      "source": "02_Projects/PROJECT.prefixe.md",
-      "raw_content": "Post-hook probing resolution CLI with confirm/cycle/exhaust Status: active. Languages: rust.",
+      "id": "project_doob",
+      "title": "PROJECT.doob",
+      "source": "02_Projects/PROJECT.doob.md",
+      "raw_content": "Todo and task tracker with sync adapters. Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "03bb6fe8-654c-4b49-8acf-bc12a6effa05",
-          "doc_id": "project_prefixe",
-          "text": "Post-hook probing resolution CLI with confirm/cycle/exhaust Status: active. Languages: rust.",
+          "id": "50e87805-eb25-4fc6-8206-481fa8efd4d7",
+          "doc_id": "project_doob",
+          "text": "Todo and task tracker with sync adapters. Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_dotfiles",
+      "title": "PROJECT.dotfiles",
+      "source": "02_Projects/PROJECT.dotfiles.md",
+      "raw_content": "Machine bootstrap — Nix flakes, GNU Stow, mise. Status: inactive. Languages: nix.",
+      "chunks": [
+        {
+          "id": "7eada53c-8b39-4d1e-94f1-cd85e101e80f",
+          "doc_id": "project_dotfiles",
+          "text": "Machine bootstrap — Nix flakes, GNU Stow, mise. Status: inactive. Languages: nix.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_godmode",
+      "title": "PROJECT.godmode",
+      "source": "02_Projects/PROJECT.godmode.md",
+      "raw_content": "Claude Code plugin — skills, agents, task graphs Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "146276a8-1f82-4e98-9595-3af55e7d1d09",
+          "doc_id": "project_godmode",
+          "text": "Claude Code plugin — skills, agents, task graphs Status: active. Languages: rust.",
           "offset": 0
         }
       ]
@@ -441,9 +245,23 @@
       "raw_content": "Rust data harvester. Status: inactive. Languages: rust.",
       "chunks": [
         {
-          "id": "9051cbe2-121c-4748-a86d-05889ce3c979",
+          "id": "4a003857-f7a9-47c7-b03c-2ddb6d9c3983",
           "doc_id": "project_harvestrs",
           "text": "Rust data harvester. Status: inactive. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_hj",
+      "title": "PROJECT.hj",
+      "source": "02_Projects/PROJECT.hj.md",
+      "raw_content": "Handoff CLI — YAML state management for session continuity Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "705ce225-9e03-49ad-a25b-96ff3172f678",
+          "doc_id": "project_hj",
+          "text": "Handoff CLI — YAML state management for session continuity Status: active. Languages: rust.",
           "offset": 0
         }
       ]
@@ -455,9 +273,37 @@
       "raw_content": "Feature-complete hook framework. Status: inactive. Languages: rust.",
       "chunks": [
         {
-          "id": "c46fa8a7-d472-46be-a45e-efae1d31c3b7",
+          "id": "3bf26ab2-a308-4ba4-993d-ca30aa53bab2",
           "doc_id": "project_hooklings",
           "text": "Feature-complete hook framework. Status: inactive. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_kgx",
+      "title": "PROJECT.kgx",
+      "source": "02_Projects/PROJECT.kgx.md",
+      "raw_content": "Knowledge graph CLI with wiki, BFS traversal, and provenance Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "9c0fc59d-95de-41bb-8aa9-c84fc0850679",
+          "doc_id": "project_kgx",
+          "text": "Knowledge graph CLI with wiki, BFS traversal, and provenance Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_langchainx",
+      "title": "PROJECT.langchainx",
+      "source": "02_Projects/PROJECT.langchainx.md",
+      "raw_content": "Rust port of LangChain — tools, chains, agents Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "9a819328-bc76-448f-8389-bc641d85263a",
+          "doc_id": "project_langchainx",
+          "text": "Rust port of LangChain — tools, chains, agents Status: active. Languages: rust.",
           "offset": 0
         }
       ]
@@ -469,7 +315,7 @@
       "raw_content": "Core Rust agent framework — workspace v0.3.1. Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "a8b0f36a-8401-40c8-8236-05872189f7b8",
+          "id": "8dcf000c-b977-493f-b7d9-f6f6d58231e0",
           "doc_id": "project_looprs",
           "text": "Core Rust agent framework — workspace v0.3.1. Status: active. Languages: rust.",
           "offset": 0
@@ -477,15 +323,29 @@
       ]
     },
     {
-      "id": "project_orca-strait",
-      "title": "PROJECT.orca-strait",
-      "source": "02_Projects/PROJECT.orca-strait.md",
-      "raw_content": "Claude Code plugin. Status: inactive. Languages: shell.",
+      "id": "project_mcpipe",
+      "title": "PROJECT.mcpipe",
+      "source": "02_Projects/PROJECT.mcpipe.md",
+      "raw_content": "MCP pipeline tool. Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "137f036c-2148-433f-b8b0-7f3f49f4b08e",
-          "doc_id": "project_orca-strait",
-          "text": "Claude Code plugin. Status: inactive. Languages: shell.",
+          "id": "a9ac6d4d-e054-431a-bed6-b9c90081573c",
+          "doc_id": "project_mcpipe",
+          "text": "MCP pipeline tool. Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_minibox",
+      "title": "PROJECT.minibox",
+      "source": "02_Projects/PROJECT.minibox.md",
+      "raw_content": "Docker-like container runtime in Rust with hexagonal architecture Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "505e37e0-3b8e-4396-8523-b50a2c498690",
+          "doc_id": "project_minibox",
+          "text": "Docker-like container runtime in Rust with hexagonal architecture Status: active. Languages: rust.",
           "offset": 0
         }
       ]
@@ -497,9 +357,233 @@
       "raw_content": "ML utilities in Rust. Status: active. Languages: rust.",
       "chunks": [
         {
-          "id": "ac2b1bb2-9633-43ea-a453-dbf0613e1986",
+          "id": "d06a41c8-80d0-413a-bb5f-aded42994729",
           "doc_id": "project_mlrs",
           "text": "ML utilities in Rust. Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_notfiles",
+      "title": "PROJECT.notfiles",
+      "source": "02_Projects/PROJECT.notfiles.md",
+      "raw_content": "Rust replacement for dotfiles bootstrap. Status: inactive. Languages: rust.",
+      "chunks": [
+        {
+          "id": "dc52b4b9-d79c-46b6-8eb3-79d39254f9d9",
+          "doc_id": "project_notfiles",
+          "text": "Rust replacement for dotfiles bootstrap. Status: inactive. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_obfsck",
+      "title": "PROJECT.obfsck",
+      "source": "02_Projects/PROJECT.obfsck.md",
+      "raw_content": "Secret scanner and redaction CLI Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "c8d105a1-6ba5-4525-8512-2bf99fc7e92d",
+          "doc_id": "project_obfsck",
+          "text": "Secret scanner and redaction CLI Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_orca-strait",
+      "title": "PROJECT.orca-strait",
+      "source": "02_Projects/PROJECT.orca-strait.md",
+      "raw_content": "Claude Code plugin. Status: inactive. Languages: shell.",
+      "chunks": [
+        {
+          "id": "a7f86c9a-0c78-4890-add5-67d6522b5491",
+          "doc_id": "project_orca-strait",
+          "text": "Claude Code plugin. Status: inactive. Languages: shell.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_praxis",
+      "title": "PROJECT.praxis",
+      "source": "02_Projects/PROJECT.praxis.md",
+      "raw_content": "Agent benchmark harness with run-cycle extraction Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "90bcea53-4b5a-4ce7-b90a-acf84a14e8ec",
+          "doc_id": "project_praxis",
+          "text": "Agent benchmark harness with run-cycle extraction Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_prefixe",
+      "title": "PROJECT.prefixe",
+      "source": "02_Projects/PROJECT.prefixe.md",
+      "raw_content": "Post-hook probing resolution CLI with confirm/cycle/exhaust Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "78287f04-2deb-4182-9bf1-e6a86b54a55a",
+          "doc_id": "project_prefixe",
+          "text": "Post-hook probing resolution CLI with confirm/cycle/exhaust Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_propkit",
+      "title": "PROJECT.propkit",
+      "source": "02_Projects/PROJECT.propkit.md",
+      "raw_content": "Property test analyzer, generator, and scaffold. Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "9721b5d0-4448-4eb0-b42a-43ce5890b0e3",
+          "doc_id": "project_propkit",
+          "text": "Property test analyzer, generator, and scaffold. Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_rslm",
+      "title": "PROJECT.rslm",
+      "source": "02_Projects/PROJECT.rslm.md",
+      "raw_content": "Rust LLM integration library. Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "e7adc46d-54aa-4962-94c2-dbe7ed80bb7b",
+          "doc_id": "project_rslm",
+          "text": "Rust LLM integration library. Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_rx",
+      "title": "PROJECT.rx",
+      "source": "02_Projects/PROJECT.rx.md",
+      "raw_content": "Script installer and runner CLI with multi-runtime support Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "849c8371-65c8-4a32-9f9c-d4a8af5ff043",
+          "doc_id": "project_rx",
+          "text": "Script installer and runner CLI with multi-runtime support Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_sanctum",
+      "title": "PROJECT.sanctum",
+      "source": "02_Projects/PROJECT.sanctum.md",
+      "raw_content": "Session security and auth guard. Status: inactive. Languages: go.",
+      "chunks": [
+        {
+          "id": "e40cfe57-b4ca-4799-bffa-024b2e589035",
+          "doc_id": "project_sanctum",
+          "text": "Session security and auth guard. Status: inactive. Languages: go.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_sandbox",
+      "title": "PROJECT.sandbox",
+      "source": "02_Projects/PROJECT.sandbox.md",
+      "raw_content": "Execution tracing, subshell isolation, rustqual refactor Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "db7165a1-03f9-43b3-88a2-de168fd0f31e",
+          "doc_id": "project_sandbox",
+          "text": "Execution tracing, subshell isolation, rustqual refactor Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_slashcrux",
+      "title": "PROJECT.slashcrux",
+      "source": "02_Projects/PROJECT.slashcrux.md",
+      "raw_content": "Slash + Crux integration workspace. Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "d63dd825-d89f-47a8-a994-5b1dd4928cc7",
+          "doc_id": "project_slashcrux",
+          "text": "Slash + Crux integration workspace. Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_steve",
+      "title": "PROJECT.steve",
+      "source": "02_Projects/PROJECT.steve.md",
+      "raw_content": "Python agent framework with skills and commands. Status: inactive. Languages: python.",
+      "chunks": [
+        {
+          "id": "5f27372f-564a-437f-93c6-f2eb94b0cf2a",
+          "doc_id": "project_steve",
+          "text": "Python agent framework with skills and commands. Status: inactive. Languages: python.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_valerie",
+      "title": "PROJECT.valerie",
+      "source": "02_Projects/PROJECT.valerie.md",
+      "raw_content": "Handoff reconciliation tool. Status: inactive. Languages: shell.",
+      "chunks": [
+        {
+          "id": "26edb6c8-1cf3-4c2f-b14a-636f1e202a63",
+          "doc_id": "project_valerie",
+          "text": "Handoff reconciliation tool. Status: inactive. Languages: shell.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "project_warpx",
+      "title": "PROJECT.warpx",
+      "source": "02_Projects/PROJECT.warpx.md",
+      "raw_content": "Handoff collapse and todo grouping tool. Status: active. Languages: rust.",
+      "chunks": [
+        {
+          "id": "6242a0c9-5ecb-4c39-aff7-ac9e6453618e",
+          "doc_id": "project_warpx",
+          "text": "Handoff collapse and todo grouping tool. Status: active. Languages: rust.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "system_crux_pipelines",
+      "title": "Crux Pipelines",
+      "source": "03_Area-Systems/SYSTEM.crux-pipelines.md",
+      "raw_content": "Automated pipelines for vault maintenance powered by crux DSL. Three pipelines: ingest (PROJECT notes into kgx), lint (schema validation, obfsck, agentlint), enrich (LLM-assisted relationship discovery). Cruxfile orchestrates: ci = lint + ingest, enrich depends on ingest.",
+      "chunks": [
+        {
+          "id": "f245fcab-37d3-418d-98cc-75c951f1b05a",
+          "doc_id": "system_crux_pipelines",
+          "text": "Automated pipelines for vault maintenance powered by crux DSL. Three pipelines: ingest (PROJECT notes into kgx), lint (schema validation, obfsck, agentlint), enrich (LLM-assisted relationship discovery). Cruxfile orchestrates: ci = lint + ingest, enrich depends on ingest.",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "system_kgx_knowledge_graph",
+      "title": "kgx Knowledge Graph",
+      "source": "03_Area-Systems/SYSTEM.kgx-knowledge-graph.md",
+      "raw_content": "Project metadata and relationships stored in a kgx graph at .kgx/. devobs_ingest.crux parses YAML frontmatter from PROJECT notes, creates nodes per project and edges from project_relationships. Graph queryable via kgx search, kgx bfs, kgx wiki. 17 edge types defined in project.schema.json.",
+      "chunks": [
+        {
+          "id": "90d7149b-ceee-413a-92e6-cc70009e71b3",
+          "doc_id": "system_kgx_knowledge_graph",
+          "text": "Project metadata and relationships stored in a kgx graph at .kgx/. devobs_ingest.crux parses YAML frontmatter from PROJECT notes, creates nodes per project and edges from project_relationships. Graph queryable via kgx search, kgx bfs, kgx wiki. 17 edge types defined in project.schema.json.",
           "offset": 0
         }
       ]

@@ -17,6 +17,18 @@ Todo and task tracker with sync adapters.
 - [[hj]] (adjacent_to): todo data feeds into handoff state
 - [[valerie]] (adjacent_to): both manage task lifecycle
 
+## Relationship Graph
+
+```
+┌──────┐   adjacent_to   ┌────┐
+│ doob ├─┬──────────────>│ hj │
+└──────┘ │               └────┘
+         │
+         │ adjacent_to   ┌─────────┐
+         └──────────────>│ valerie │
+                         └─────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/doob.git

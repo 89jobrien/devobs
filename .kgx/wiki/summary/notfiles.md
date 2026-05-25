@@ -16,6 +16,20 @@ Rust replacement for dotfiles bootstrap.
 
 - [[dotfiles]] (replaces): notfiles is explicitly described as a Rust replacement for the dotfiles bootstrap workflow.
 
+## Relationship Graph
+
+```
+┌──────────┐
+│ notfiles │
+└─────┬────┘
+      │ replaces
+      │
+      v
+┌──────────┐
+│ dotfiles │
+└──────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/notfiles.git

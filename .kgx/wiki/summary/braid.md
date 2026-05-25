@@ -17,6 +17,18 @@ Multi-agent orchestration platform.
 - [[looprs]] (sibling_of): both are Rust agent frameworks
 - [[langchainx]] (sibling_of): both are Rust agent frameworks
 
+## Relationship Graph
+
+```
+┌───────┐   sibling_of   ┌────────────┐
+│ braid ├─┬─────────────>│ langchainx │
+└───────┘ │              └────────────┘
+          │
+          │ sibling_of   ┌────────┐
+          └─────────────>│ looprs │
+                         └────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/braid.git

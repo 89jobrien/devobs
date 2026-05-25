@@ -16,6 +16,20 @@ Rust data harvester.
 
 - [[kgx]] (feeds_into): harvestrs harvests data, while kgx manages knowledge graphs with provenance; harvested data would naturally feed a graph knowledge store.
 
+## Relationship Graph
+
+```
+┌───────────┐
+│ harvestrs │
+└─────┬─────┘
+      │ feeds_into
+      │
+      v
+   ┌─────┐
+   │ kgx │
+   └─────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/harvestrs.git

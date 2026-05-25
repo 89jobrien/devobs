@@ -9,8 +9,8 @@ tags: [topic, language, go]
 
 ## Active Projects
 
-- **[[devkit]]** — Go dev workflow toolkit — standup, council, timeline.
+- **[[devkit]]** -- Go dev workflow toolkit — standup, council, timeline.
 
 ## Inactive / Archived
 
-- [[sanctum]] — Session security and auth guard.
+- [[sanctum]] -- Session security and auth guard.

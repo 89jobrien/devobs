@@ -9,5 +9,23 @@ tags: [topic, domain, testing]
 
 ## Active Projects
 
-- **[[propkit]]** — Property test analyzer, generator, and scaffold.
-- **[[sandbox]]** — Execution tracing, subshell isolation, rustqual refactor
+- **[[propkit]]** -- Property test analyzer, generator, and scaffold.
+- **[[sandbox]]** -- Execution tracing, subshell isolation, rustqual refactor
+
+## Internal Relationships
+
+- [[propkit]] --complements--> [[sandbox]]: propkit generates and analyzes property tests, while sandbox can provide isolated execution and tracing for running those tests safely.
+
+## Cluster Graph
+
+```
+┌─────────┐
+│ propkit │
+└────┬────┘
+     │ complements
+     │
+     v
+┌─────────┐
+│ sandbox │
+└─────────┘
+```

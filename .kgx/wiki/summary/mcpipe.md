@@ -16,6 +16,20 @@ MCP pipeline tool.
 
 - [[rslm]] (complements): mcpipe provides MCP pipeline functionality, which complements an LLM integration library by enabling model/tool pipeline composition.
 
+## Relationship Graph
+
+```
+┌────────┐
+│ mcpipe │
+└────┬───┘
+     │ complements
+     │
+     v
+ ┌──────┐
+ │ rslm │
+ └──────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/mcpipe.git

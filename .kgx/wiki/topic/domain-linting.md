@@ -9,4 +9,4 @@ tags: [topic, domain, linting]
 
 ## Active Projects
 
-- **[[agentlint]]** — Linter for AI agent patterns — sshpass, sleep, frontmatter heuristics
+- **[[agentlint]]** -- Linter for AI agent patterns — sshpass, sleep, frontmatter heuristics

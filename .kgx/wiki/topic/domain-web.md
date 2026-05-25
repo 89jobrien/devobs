@@ -9,4 +9,4 @@ tags: [topic, domain, web]
 
 ## Active Projects
 
-- **[[89jobrien.github.io]]** — GitHub profile page with live stats.
+- **[[89jobrien.github.io]]** -- GitHub profile page with live stats.

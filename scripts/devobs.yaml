@@ -1,0 +1,50 @@
+projects_glob: "02_Projects/PROJECT.*.md"
+candidates_path: ".ctx/enrich_candidates.json"
+
+required_fields:
+  - type
+  - status
+  - language_stack
+  - domain
+  - repo
+  - primary_machine
+  - tags
+
+valid_statuses:
+  - active
+  - inactive
+  - archived
+
+valid_languages:
+  - rust
+  - go
+  - python
+  - shell
+  - nix
+  - typescript
+  - javascript
+  - nushell
+
+valid_relationship_types:
+  - depends_on
+  - bootstraps
+  - observes
+  - consumes_from
+  - feeds_into
+  - adjacent_to
+  - sibling_of
+  - replaces
+  - replaced_by
+  - complements
+  - informed_by
+  - informs
+  - indexes
+  - indexed_by
+  - aligns_schema_with
+  - control_plane_for
+  - provisioned_by
+
+enrich:
+  model: "gpt-5.5"
+  min_confidence: 0.7
+  github_owner: "89jobrien"

@@ -17,6 +17,18 @@ Core Rust agent framework — workspace v0.3.1.
 - [[braid]] (sibling_of): both are Rust agent frameworks
 - [[langchainx]] (sibling_of): both are Rust agent frameworks
 
+## Relationship Graph
+
+```
+┌────────┐   sibling_of   ┌───────┐
+│ looprs ├─┬─────────────>│ braid │
+└────────┘ │              └───────┘
+           │
+           │ sibling_of   ┌────────────┐
+           └─────────────>│ langchainx │
+                          └────────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/looprs.git

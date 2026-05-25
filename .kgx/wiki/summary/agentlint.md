@@ -17,6 +17,18 @@ Linter for AI agent patterns — sshpass, sleep, frontmatter heuristics
 - [[obfsck]] (complements): both are scanning/linting tools for code quality
 - [[sandbox]] (complements): agentlint statically detects risky AI-agent patterns, while sandbox provides execution tracing and isolation; together they cover preventive and runtime safety.
 
+## Relationship Graph
+
+```
+┌───────────┐   complements   ┌────────┐
+│ agentlint ├─┬──────────────>│ obfsck │
+└───────────┘ │               └────────┘
+              │
+              │ complements   ┌─────────┐
+              └──────────────>│ sandbox │
+                              └─────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/agentlint.git

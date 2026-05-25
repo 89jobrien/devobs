@@ -9,10 +9,10 @@ tags: [topic, language, shell]
 
 ## Active Projects
 
-- **[[89jobrien.github.io]]** — GitHub profile page with live stats.
-- **[[atelier]]** — Claude Code plugin — skills, agents, forge/sentinel/herald.
+- **[[89jobrien.github.io]]** -- GitHub profile page with live stats.
+- **[[atelier]]** -- Claude Code plugin — skills, agents, forge/sentinel/herald.
 
 ## Inactive / Archived
 
-- [[orca-strait]] — Claude Code plugin.
-- [[valerie]] — Handoff reconciliation tool.
+- [[orca-strait]] -- Claude Code plugin.
+- [[valerie]] -- Handoff reconciliation tool.

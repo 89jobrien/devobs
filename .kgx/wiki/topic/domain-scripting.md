@@ -9,4 +9,4 @@ tags: [topic, domain, scripting]
 
 ## Active Projects
 
-- **[[rx]]** — Script installer and runner CLI with multi-runtime support
+- **[[rx]]** -- Script installer and runner CLI with multi-runtime support

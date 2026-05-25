@@ -13,7 +13,7 @@ steps:
   - step: frontmatter_lint
     handler: shell::capture
     args:
-      cmd: "python3 scripts/lint_vault.py"
+      cmd: "rust-script scripts/devobs.rs lint"
 
   - step: obfsck_scan
     handler: shell::exec

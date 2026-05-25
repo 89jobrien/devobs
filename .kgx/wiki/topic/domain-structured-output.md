@@ -9,4 +9,4 @@ tags: [topic, domain, structured-output]
 
 ## Active Projects
 
-- **[[bamlish]]** — BAML-related Rust tooling for structured LLM output.
+- **[[bamlish]]** -- BAML-related Rust tooling for structured LLM output.

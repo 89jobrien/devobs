@@ -17,6 +17,18 @@ Feature-complete hook framework.
 - [[coursers]] (adjacent_to): both are hook frameworks
 - [[prefixe]] (adjacent_to): both are hook-related tools
 
+## Relationship Graph
+
+```
+┌───────────┐   adjacent_to   ┌──────────┐
+│ hooklings ├─┬──────────────>│ coursers │
+└───────────┘ │               └──────────┘
+              │
+              │ adjacent_to   ┌─────────┐
+              └──────────────>│ prefixe │
+                              └─────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/hooklings.git

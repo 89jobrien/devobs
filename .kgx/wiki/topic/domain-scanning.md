@@ -9,4 +9,4 @@ tags: [topic, domain, scanning]
 
 ## Active Projects
 
-- **[[obfsck]]** — Secret scanner and redaction CLI
+- **[[obfsck]]** -- Secret scanner and redaction CLI

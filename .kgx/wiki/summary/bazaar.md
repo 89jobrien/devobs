@@ -18,6 +18,22 @@ Claude Code plugin marketplace and showcase
 - [[atelier]] (consumes_from): atelier is a Claude Code plugin, making it a likely source of plugin metadata or examples for bazaar's marketplace/showcase role.
 - [[orca-strait]] (consumes_from): orca-strait is another Claude Code plugin and fits bazaar's role as a marketplace and showcase for such plugins.
 
+## Relationship Graph
+
+```
+┌────────┐   consumes_from   ┌─────────┐
+│ bazaar ├─┬────────────────>│ atelier │
+└────────┘ │                 └─────────┘
+           │
+           │ consumes_from   ┌─────────┐
+           ├────────────────>│ godmode │
+           │                 └─────────┘
+           │
+           │ consumes_from   ┌─────────────┐
+           └────────────────>│ orca-strait │
+                             └─────────────┘
+```
+
 ## References
 
 - Repo: git@github.com:89jobrien/bazaar.git

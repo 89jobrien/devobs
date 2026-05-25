@@ -9,4 +9,4 @@ tags: [topic, domain, execution]
 
 ## Active Projects
 
-- **[[sandbox]]** — Execution tracing, subshell isolation, rustqual refactor
+- **[[sandbox]]** -- Execution tracing, subshell isolation, rustqual refactor

@@ -9,5 +9,5 @@ tags: [topic, domain, runtime]
 
 ## Active Projects
 
-- **[[minibox]]** — Docker-like container runtime in Rust with hexagonal architecture
-- **[[rx]]** — Script installer and runner CLI with multi-runtime support
+- **[[minibox]]** -- Docker-like container runtime in Rust with hexagonal architecture
+- **[[rx]]** -- Script installer and runner CLI with multi-runtime support

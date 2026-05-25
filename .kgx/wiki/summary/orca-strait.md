@@ -17,6 +17,18 @@ Claude Code plugin.
 - [[godmode]] (sibling_of): both are Claude Code plugins
 - [[atelier]] (sibling_of): both are Claude Code plugins
 
+## Relationship Graph
+
+```
+┌─────────────┐   sibling_of   ┌─────────┐
+│ orca-strait ├─┬─────────────>│ atelier │
+└─────────────┘ │              └─────────┘
+                │
+                │ sibling_of   ┌─────────┐
+                └─────────────>│ godmode │
+                               └─────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/orca-strait.git

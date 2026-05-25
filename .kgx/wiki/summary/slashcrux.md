@@ -16,6 +16,20 @@ Slash + Crux integration workspace.
 
 - [[crux]] (depends_on): integrates crux DSL with slash
 
+## Relationship Graph
+
+```
+┌───────────┐
+│ slashcrux │
+└─────┬─────┘
+      │ depends_on
+      │
+      v
+  ┌──────┐
+  │ crux │
+  └──────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/slashcrux.git

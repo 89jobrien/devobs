@@ -9,4 +9,4 @@ tags: [topic, domain, marketplace]
 
 ## Active Projects
 
-- **[[bazaar]]** — Claude Code plugin marketplace and showcase
+- **[[bazaar]]** -- Claude Code plugin marketplace and showcase

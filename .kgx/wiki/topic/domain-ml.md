@@ -9,4 +9,4 @@ tags: [topic, domain, ml]
 
 ## Active Projects
 
-- **[[mlrs]]** — ML utilities in Rust.
+- **[[mlrs]]** -- ML utilities in Rust.

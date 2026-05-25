@@ -1,9 +1,6 @@
 pipeline: devobs_ingest
 # Ingest all PROJECT notes into the kgx knowledge graph.
 #
-# Uses scripts/ingest_projects.py to reliably parse YAML frontmatter
-# and produce valid JSON payloads for kgx ingest.
-#
 # Run:
 #   crux run pipelines/devobs_ingest.crux
 budget: { calls: 50 }
@@ -13,15 +10,21 @@ steps:
   - step: build_payloads
     handler: shell::capture
     args:
-      cmd: "python3 scripts/ingest_projects.py"
+      cmd: "rust-script scripts/devobs.rs ingest"
 
   # Step 2: Ingest each payload into kgx
   - step: ingest_to_kgx
     handler: shell::capture
     args:
-      cmd: "python3 scripts/ingest_projects.py | while IFS= read -r line; do echo \"$line\" | kgx ingest; done"
+      cmd: "rust-script scripts/devobs.rs ingest | while IFS= read -r line; do echo \"$line\" | kgx ingest; done"
 
-  # Step 3: Report stats
+  # Step 3: Export graph as markdown
+  - step: export_markdown
+    handler: shell::capture
+    args:
+      cmd: "kgx export --format markdown --output 05_Knowledge"
+
+  # Step 4: Report stats
   - step: stats
     handler: shell::capture
     args:

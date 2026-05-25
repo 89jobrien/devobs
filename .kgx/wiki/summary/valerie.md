@@ -16,6 +16,20 @@ Handoff reconciliation tool.
 
 - [[warpx]] (complements): valerie reconciles handoff state, while warpx collapses handoffs and groups todos; both operate on adjacent parts of the handoff-management workflow.
 
+## Relationship Graph
+
+```
+┌─────────┐
+│ valerie │
+└────┬────┘
+     │ complements
+     │
+     v
+ ┌───────┐
+ │ warpx │
+ └───────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/valerie.git

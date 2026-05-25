@@ -9,5 +9,5 @@ tags: [topic, domain, cli]
 
 ## Active Projects
 
-- **[[kgx]]** — Knowledge graph CLI with wiki, BFS traversal, and provenance
-- **[[prefixe]]** — Post-hook probing resolution CLI with confirm/cycle/exhaust
+- **[[kgx]]** -- Knowledge graph CLI with wiki, BFS traversal, and provenance
+- **[[prefixe]]** -- Post-hook probing resolution CLI with confirm/cycle/exhaust

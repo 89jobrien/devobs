@@ -11,4 +11,4 @@ tags: [topic, language, python]
 
 ## Inactive / Archived
 
-- [[steve]] — Python agent framework with skills and commands.
+- [[steve]] -- Python agent framework with skills and commands.

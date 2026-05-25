@@ -16,6 +16,20 @@ Agentic Rust DSL and runtime trace model
 
 - [[slashcrux]] (depends_on): slashcrux crate via crates.io
 
+## Relationship Graph
+
+```
+  ┌──────┐
+  │ crux │
+  └───┬──┘
+      │ depends_on
+      │
+      v
+┌───────────┐
+│ slashcrux │
+└───────────┘
+```
+
 ## References
 
 - Repo: git@github.com:89jobrien/crux.git

@@ -9,4 +9,4 @@ tags: [topic, domain, mcp]
 
 ## Active Projects
 
-- **[[mcpipe]]** — MCP pipeline tool.
+- **[[mcpipe]]** -- MCP pipeline tool.

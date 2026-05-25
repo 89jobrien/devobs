@@ -11,4 +11,4 @@ tags: [topic, language, nix]
 
 ## Inactive / Archived
 
-- [[dotfiles]] — Machine bootstrap — Nix flakes, GNU Stow, mise.
+- [[dotfiles]] -- Machine bootstrap — Nix flakes, GNU Stow, mise.

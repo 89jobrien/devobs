@@ -10,6 +10,7 @@
 - [braid](summary/braid.md)
 - [cannibalizer](summary/cannibalizer.md)
 - [coursers](summary/coursers.md)
+- [crux-pipelines-system](summary/crux-pipelines-system.md)
 - [crux](summary/crux.md)
 - [devkit](summary/devkit.md)
 - [doob](summary/doob.md)
@@ -18,6 +19,7 @@
 - [harvestrs](summary/harvestrs.md)
 - [hj](summary/hj.md)
 - [hooklings](summary/hooklings.md)
+- [kgx-knowledge-graph-system](summary/kgx-knowledge-graph-system.md)
 - [kgx](summary/kgx.md)
 - [langchainx](summary/langchainx.md)
 - [looprs](summary/looprs.md)
@@ -38,6 +40,17 @@
 - [steve](summary/steve.md)
 - [valerie](summary/valerie.md)
 - [warpx](summary/warpx.md)
+
+## Entity
+
+- [agent-framework-triad](entity/agent-framework-triad.md)
+- [agent-runtime-stack](entity/agent-runtime-stack.md)
+- [dsl-runtime-layer](entity/dsl-runtime-layer.md)
+- [execution-layer](entity/execution-layer.md)
+- [hook-infrastructure](entity/hook-infrastructure.md)
+- [marketplace-layer](entity/marketplace-layer.md)
+- [plugin-layer](entity/plugin-layer.md)
+- [state-management-system](entity/state-management-system.md)
 
 ## Topic
 

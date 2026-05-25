@@ -18,6 +18,22 @@ Handoff CLI — YAML state management for session continuity
 - [[warpx]] (adjacent_to): warpx collapses handoff state
 - [[valerie]] (adjacent_to): valerie reconciles handoff state
 
+## Relationship Graph
+
+```
+┌────┐   adjacent_to   ┌──────┐
+│ hj ├─┬──────────────>│ doob │
+└────┘ │               └──────┘
+       │
+       │ adjacent_to   ┌─────────┐
+       ├──────────────>│ valerie │
+       │               └─────────┘
+       │
+       │ adjacent_to   ┌───────┐
+       └──────────────>│ warpx │
+                       └───────┘
+```
+
 ## References
 
 - Repo: git@github.com:89jobrien/hj.git

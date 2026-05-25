@@ -9,4 +9,4 @@ tags: [topic, domain, ci]
 
 ## Active Projects
 
-- **[[coursers]]** — Claude Code hook runner — pre/post tool-use guards
+- **[[coursers]]** -- Claude Code hook runner — pre/post tool-use guards

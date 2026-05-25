@@ -16,6 +16,20 @@ BAML-related Rust tooling for structured LLM output.
 
 - [[rslm]] (complements): bamlish focuses on structured LLM output tooling, while rslm provides Rust LLM integration; structured output is a natural layer on top of LLM integration.
 
+## Relationship Graph
+
+```
+┌─────────┐
+│ bamlish │
+└────┬────┘
+     │ complements
+     │
+     v
+ ┌──────┐
+ │ rslm │
+ └──────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/bamlish.git

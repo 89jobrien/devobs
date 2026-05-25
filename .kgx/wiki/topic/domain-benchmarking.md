@@ -9,4 +9,4 @@ tags: [topic, domain, benchmarking]
 
 ## Active Projects
 
-- **[[praxis]]** — Agent benchmark harness with run-cycle extraction
+- **[[praxis]]** -- Agent benchmark harness with run-cycle extraction

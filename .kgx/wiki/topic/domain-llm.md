@@ -9,5 +9,5 @@ tags: [topic, domain, llm]
 
 ## Active Projects
 
-- **[[langchainx]]** — Rust port of LangChain — tools, chains, agents
-- **[[rslm]]** — Rust LLM integration library.
+- **[[langchainx]]** -- Rust port of LangChain — tools, chains, agents
+- **[[rslm]]** -- Rust LLM integration library.

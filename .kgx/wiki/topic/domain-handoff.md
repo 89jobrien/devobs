@@ -9,4 +9,4 @@ tags: [topic, domain, handoff]
 
 ## Active Projects
 
-- **[[hj]]** — Handoff CLI — YAML state management for session continuity
+- **[[hj]]** -- Handoff CLI — YAML state management for session continuity

@@ -16,6 +16,20 @@ Property test analyzer, generator, and scaffold.
 
 - [[sandbox]] (complements): propkit generates and analyzes property tests, while sandbox can provide isolated execution and tracing for running those tests safely.
 
+## Relationship Graph
+
+```
+┌─────────┐
+│ propkit │
+└────┬────┘
+     │ complements
+     │
+     v
+┌─────────┐
+│ sandbox │
+└─────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/propkit.git

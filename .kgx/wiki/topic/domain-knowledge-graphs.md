@@ -9,4 +9,4 @@ tags: [topic, domain, knowledge-graphs]
 
 ## Active Projects
 
-- **[[kgx]]** — Knowledge graph CLI with wiki, BFS traversal, and provenance
+- **[[kgx]]** -- Knowledge graph CLI with wiki, BFS traversal, and provenance

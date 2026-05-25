@@ -9,4 +9,4 @@ tags: [topic, domain, dsl]
 
 ## Active Projects
 
-- **[[crux]]** — Agentic Rust DSL and runtime trace model
+- **[[crux]]** -- Agentic Rust DSL and runtime trace model

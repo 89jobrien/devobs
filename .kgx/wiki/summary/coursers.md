@@ -17,6 +17,18 @@ Claude Code hook runner — pre/post tool-use guards
 - [[prefixe]] (depends_on): prefixe crate via crates.io
 - [[hooklings]] (adjacent_to): both are hook frameworks
 
+## Relationship Graph
+
+```
+┌──────────┐   adjacent_to   ┌───────────┐
+│ coursers ├─┬──────────────>│ hooklings │
+└──────────┘ │               └───────────┘
+             │
+             │ depends_on    ┌─────────┐
+             └──────────────>│ prefixe │
+                             └─────────┘
+```
+
 ## References
 
 - Repo: https://github.com/89jobrien/coursers.git
